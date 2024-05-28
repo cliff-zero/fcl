@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests/build",
+    "command": "CXX.sh -Iqlat.x@exe -I. -I.. -I/thfs1/software/mpich/mpi-x-gcc8.3.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -std=c++14 -O2 -fno-strict-aliasing -fPIC -Wl,-rpath -Wl,/thfs1/software/mpich/mpi-x-gcc8.3.0/lib -Wl,--enable-new-dtags -fopenmp -MD -MQ 'qlat.x@exe/main.cpp.o' -MF 'qlat.x@exe/main.cpp.o.d' -o 'qlat.x@exe/main.cpp.o' -c /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests/main.cpp",
+    "file": "/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests/main.cpp",
+    "output": "qlat.x@exe/main.cpp.o"
+  }
+]

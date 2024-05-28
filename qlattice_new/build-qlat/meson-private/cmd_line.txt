@@ -1,0 +1,6 @@
+[options]
+use_cxx = true
+prefix = /thfs1/home/fengxu/wxh/code/qlattice_new
+
+[properties]
+

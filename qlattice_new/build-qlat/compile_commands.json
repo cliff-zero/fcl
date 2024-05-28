@@ -1,0 +1,182 @@
+[
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-field.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-field.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-field.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-field.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-field.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-field.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-hvp.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-hvp.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-hvp.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-hvp.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-hvp.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-hvp.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-pion.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-pion.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-pion.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-pion.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-pion.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/contraction-pion.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/coordinate.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/coordinate.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/coordinate.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/coordinate.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/coordinate.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/coordinate.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/fermion-action.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/fermion-action.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/fermion-action.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/fermion-action.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/fermion-action.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/fermion-action.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/field.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-double.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-double.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-double.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-double.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-double.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/field-double.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-io.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-io.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-io.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-io.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-io.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/field-io.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-selection.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-selection.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-selection.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-selection.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-selection.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/field-selection.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/fields-io.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/fields-io.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/fields-io.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/fields-io.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/fields-io.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/fields-io.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-utils.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-utils.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/field-utils.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-utils.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-utils.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/field-utils.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/gauge-action.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/gauge-action.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/gauge-action.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/gauge-action.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/gauge-action.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/gauge-action.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/geometry.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/geometry.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/geometry.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/geometry.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/geometry.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/geometry.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/hmc.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/hmc.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc-stats.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc-stats.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc-stats.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/hmc-stats.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/hmc-stats.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/hmc-stats.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/init.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/init.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/init.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/init.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/init.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/init.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/inverter.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/inverter.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/inverter.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/inverter.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/inverter.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/inverter.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/lat-io.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/lat-io.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/lat-io.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/lat-io.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/lat-io.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/lat-io.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/lib.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/lib.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/lib.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/lib.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/lib.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/lib.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/mat.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/mat.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/mat.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/mat.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/mat.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/mat.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/mpi.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/mpi.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/mpi.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/mpi.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/mpi.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/mpi.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/propagator.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/propagator.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/propagator.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/propagator.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/propagator.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/propagator.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/qcd.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/qcd.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/qcd.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/qcd.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/qcd.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/qcd.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/scalar-action.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/scalar-action.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/scalar-action.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/scalar-action.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/scalar-action.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/scalar-action.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-field.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-field.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-field.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/selected-field.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/selected-field.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-field.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-points.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-points.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-points.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/selected-points.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/selected-points.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/selected-points.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/smear.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/smear.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/smear.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/smear.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/smear.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/smear.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/topology.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/topology.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/topology.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/topology.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/topology.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/topology.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/utils-io.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/utils-io.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/utils-io.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/utils-io.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/utils-io.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/utils-io.cpp.o"
+  },
+  {
+    "directory": "/thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat",
+    "command": "MPICXX.sh -Icqlat.cpython-37m-aarch64-linux-gnu@sha -I. -I../../../package/Qlattice-master/qlat -I../../../package/Qlattice-master/qlat/include -I/thfs1/home/fengxu/archiconda3/include/python3.7m -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -Wextra -Wpedantic -std=c++14 -O2 -fno-strict-aliasing -fPIC -fopenmp -MD -MQ 'cqlat.cpython-37m-aarch64-linux-gnu@sha/wilson-flow.cpp.o' -MF 'cqlat.cpython-37m-aarch64-linux-gnu@sha/wilson-flow.cpp.o.d' -o 'cqlat.cpython-37m-aarch64-linux-gnu@sha/wilson-flow.cpp.o' -c /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/wilson-flow.cpp",
+    "file": "/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/wilson-flow.cpp",
+    "output": "cqlat.cpython-37m-aarch64-linux-gnu@sha/wilson-flow.cpp.o"
+  }
+]

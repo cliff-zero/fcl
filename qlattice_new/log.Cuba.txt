@@ -1,0 +1,241 @@
+!!!! build Cuba !!!!
+checking for gcc... CC.sh
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether CC.sh accepts -g... yes
+checking for CC.sh option to accept ISO C89... none needed
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran compiler... yes
+checking whether gfortran accepts -g... yes
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for long double with more range or precision than double... yes
+checking how to run the C preprocessor... CC.sh -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for pid_t... yes
+checking for powl... yes
+checking for erf... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking build system type... aarch64-unknown-none
+checking host system type... aarch64-unknown-none
+checking for shmget... yes
+checking for getloadavg... yes
+checking for variable-size arrays... yes
+checking for MathLink... no
+checking for qmake... qmake
+configure: creating ./config.status
+config.status: creating makefile
+config.status: creating config.h
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -DNOUNDERSCORE -c -o Vegas.o ./src/vegas/Vegas.c
+ar rv libcuba.a Vegas.o
+ar: creating libcuba.a
+a - Vegas.o
+rm -f Vegas.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -c -o Vegas_.o ./src/vegas/Vegas.c
+ar rv libcuba.a Vegas_.o
+a - Vegas_.o
+rm -f Vegas_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -DLONGLONGINT -DNOUNDERSCORE -c -o llVegas.o ./src/vegas/Vegas.c
+ar rv libcuba.a llVegas.o
+a - llVegas.o
+rm -f llVegas.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -DLONGLONGINT -c -o llVegas_.o ./src/vegas/Vegas.c
+ar rv libcuba.a llVegas_.o
+a - llVegas_.o
+rm -f llVegas_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -DNOUNDERSCORE -c -o Suave.o ./src/suave/Suave.c
+ar rv libcuba.a Suave.o
+a - Suave.o
+rm -f Suave.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -c -o Suave_.o ./src/suave/Suave.c
+ar rv libcuba.a Suave_.o
+a - Suave_.o
+rm -f Suave_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -DLONGLONGINT -DNOUNDERSCORE -c -o llSuave.o ./src/suave/Suave.c
+ar rv libcuba.a llSuave.o
+a - llSuave.o
+rm -f llSuave.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -DLONGLONGINT -c -o llSuave_.o ./src/suave/Suave.c
+ar rv libcuba.a llSuave_.o
+a - llSuave_.o
+rm -f llSuave_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -DNOUNDERSCORE -c -o Divonne.o ./src/divonne/Divonne.c
+ar rv libcuba.a Divonne.o
+a - Divonne.o
+rm -f Divonne.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -c -o Divonne_.o ./src/divonne/Divonne.c
+ar rv libcuba.a Divonne_.o
+a - Divonne_.o
+rm -f Divonne_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -DLONGLONGINT -DNOUNDERSCORE -c -o llDivonne.o ./src/divonne/Divonne.c
+ar rv libcuba.a llDivonne.o
+a - llDivonne.o
+rm -f llDivonne.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -DLONGLONGINT -c -o llDivonne_.o ./src/divonne/Divonne.c
+ar rv libcuba.a llDivonne_.o
+a - llDivonne_.o
+rm -f llDivonne_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -DNOUNDERSCORE -c -o Cuhre.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a Cuhre.o
+a - Cuhre.o
+rm -f Cuhre.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -c -o Cuhre_.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a Cuhre_.o
+a - Cuhre_.o
+rm -f Cuhre_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -DLONGLONGINT -DNOUNDERSCORE -c -o llCuhre.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a llCuhre.o
+a - llCuhre.o
+rm -f llCuhre.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -DLONGLONGINT -c -o llCuhre_.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a llCuhre_.o
+a - llCuhre_.o
+rm -f llCuhre_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -DNOUNDERSCORE -c -o Fork.o ./src/common/Fork.c
+ar rv libcuba.a Fork.o
+a - Fork.o
+rm -f Fork.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -c -o Fork_.o ./src/common/Fork.c
+ar rv libcuba.a Fork_.o
+a - Fork_.o
+rm -f Fork_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -DNOUNDERSCORE -c -o Global.o ./src/common/Global.c
+ar rv libcuba.a Global.o
+a - Global.o
+rm -f Global.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -c -o Global_.o ./src/common/Global.c
+ar rv libcuba.a Global_.o
+a - Global_.o
+rm -f Global_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -c -o Data.o ./src/common/Data.c
+ar rv libcuba.a Data.o
+a - Data.o
+rm -f Data.o
+ranlib libcuba.a
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -o demo-c ./demo/demo-c.c libcuba.a -lm
+gfortran -g -O2 -DREALSIZE=8 -o demo-fortran ./demo/demo-fortran.F libcuba.a -lm
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -DNOUNDERSCORE -c -o Vegas.o ./src/vegas/Vegas.c
+ar rv libcuba.a Vegas.o
+r - Vegas.o
+rm -f Vegas.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -c -o Vegas_.o ./src/vegas/Vegas.c
+ar rv libcuba.a Vegas_.o
+r - Vegas_.o
+rm -f Vegas_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -DLONGLONGINT -DNOUNDERSCORE -c -o llVegas.o ./src/vegas/Vegas.c
+ar rv libcuba.a llVegas.o
+r - llVegas.o
+rm -f llVegas.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/vegas -DLONGLONGINT -c -o llVegas_.o ./src/vegas/Vegas.c
+ar rv libcuba.a llVegas_.o
+r - llVegas_.o
+rm -f llVegas_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -DNOUNDERSCORE -c -o Suave.o ./src/suave/Suave.c
+ar rv libcuba.a Suave.o
+r - Suave.o
+rm -f Suave.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -c -o Suave_.o ./src/suave/Suave.c
+ar rv libcuba.a Suave_.o
+r - Suave_.o
+rm -f Suave_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -DLONGLONGINT -DNOUNDERSCORE -c -o llSuave.o ./src/suave/Suave.c
+ar rv libcuba.a llSuave.o
+r - llSuave.o
+rm -f llSuave.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/suave -DLONGLONGINT -c -o llSuave_.o ./src/suave/Suave.c
+ar rv libcuba.a llSuave_.o
+r - llSuave_.o
+rm -f llSuave_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -DNOUNDERSCORE -c -o Divonne.o ./src/divonne/Divonne.c
+ar rv libcuba.a Divonne.o
+r - Divonne.o
+rm -f Divonne.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -c -o Divonne_.o ./src/divonne/Divonne.c
+ar rv libcuba.a Divonne_.o
+r - Divonne_.o
+rm -f Divonne_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -DLONGLONGINT -DNOUNDERSCORE -c -o llDivonne.o ./src/divonne/Divonne.c
+ar rv libcuba.a llDivonne.o
+r - llDivonne.o
+rm -f llDivonne.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/divonne -DLONGLONGINT -c -o llDivonne_.o ./src/divonne/Divonne.c
+ar rv libcuba.a llDivonne_.o
+r - llDivonne_.o
+rm -f llDivonne_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -DNOUNDERSCORE -c -o Cuhre.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a Cuhre.o
+r - Cuhre.o
+rm -f Cuhre.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -c -o Cuhre_.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a Cuhre_.o
+r - Cuhre_.o
+rm -f Cuhre_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -DLONGLONGINT -DNOUNDERSCORE -c -o llCuhre.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a llCuhre.o
+r - llCuhre.o
+rm -f llCuhre.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -I./src/cuhre -DLONGLONGINT -c -o llCuhre_.o ./src/cuhre/Cuhre.c
+ar rv libcuba.a llCuhre_.o
+r - llCuhre_.o
+rm -f llCuhre_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -DNOUNDERSCORE -c -o Fork.o ./src/common/Fork.c
+ar rv libcuba.a Fork.o
+r - Fork.o
+rm -f Fork.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -c -o Fork_.o ./src/common/Fork.c
+ar rv libcuba.a Fork_.o
+r - Fork_.o
+rm -f Fork_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -DNOUNDERSCORE -c -o Global.o ./src/common/Global.c
+ar rv libcuba.a Global.o
+r - Global.o
+rm -f Global.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -c -o Global_.o ./src/common/Global.c
+ar rv libcuba.a Global_.o
+r - Global_.o
+rm -f Global_.o
+CC.sh -fPIC -DHAVE_CONFIG_H -DREALSIZE=8 -I./src/common -I. -I. -c -o Data.o ./src/common/Data.c
+ar rv libcuba.a Data.o
+r - Data.o
+rm -f Data.o
+ranlib libcuba.a
+/usr/bin/install -c -m 755 -d /thfs1/home/fengxu/wxh/code/qlattice_new/lib \
+                     /thfs1/home/fengxu/wxh/code/qlattice_new/include \
+                     /thfs1/home/fengxu/wxh/code/qlattice_new/bin \
+                     /thfs1/home/fengxu/wxh/code/qlattice_new/share
+/usr/bin/install -c -m 644 libcuba.a /thfs1/home/fengxu/wxh/code/qlattice_new/lib
+for f in cuba.h ; do \
+  /usr/bin/install -c -m 644 `test -f $f || echo ./`$f /thfs1/home/fengxu/wxh/code/qlattice_new/include; \
+done
+for f in Vegas Suave Divonne Cuhre partview ; do \
+  test -f $f && /usr/bin/install -c $f /thfs1/home/fengxu/wxh/code/qlattice_new/bin || : ; \
+done
+/usr/bin/install -c -m 644 ./cuba.pdf /thfs1/home/fengxu/wxh/code/qlattice_new/share
+!!!! Cuba build !!!!

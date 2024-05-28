@@ -1,0 +1,30 @@
+Sourcing '/thfs1/home/fengxu/wxh/code/qlattice_new/setenv.sh'
+
+prefix=/thfs1/home/fengxu/wxh/code/qlattice_new
+
+num_proc=2
+
+declare -x PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/bin:/thfs1/software/cmake/3.12.0-gcc8.3.0/bin:/thfs1/software/bzip2/1.0.8-gcc8.3.0/bin:/thfs1/software/zlib/1.2.11-gcc8.3.0/bin:/thfs1/software/lapack/3.8.0-gcc8.3.0/bin:/thfs1/software/fftw/3.3.8-gcc8.3.0/bin:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/bin:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/bin:/thfs1/software/mpich/mpi-x-gcc8.3.0/bin:/thfs1/software/gcc/8.3.0/bin:/thfs1/home/fengxu/.local/bin:/thfs1/home/fengxu/archiconda3/bin:/thfs1/software/modules/4.2.1-gcc9.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+declare -x PYTHONPATH="/thfs1/home/fengxu/wxh/code/qlattice_new/gpt/lib/cgpt/build:/thfs1/home/fengxu/wxh/code/qlattice_new/gpt/lib:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3*/*-packages:/thfs1/home/fengxu/wxh/package//pylib"
+declare -x NPY_BLAS_ORDER="openblas"
+declare -x NPY_NUM_BUILD_JOBS="2"
+declare -x NPY_LAPACK_ORDER="openblas"
+declare -x LD_RUN_PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/lib64:/thfs1/home/fengxu/wxh/code/qlattice_new/lib"
+declare -x LD_LIBRARY_PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/lib64:/thfs1/home/fengxu/wxh/code/qlattice_new/lib:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib:/thfs1/software/blas/3.8.0-gcc8.3.0/lib:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib:/thfs1/software/gcc/8.3.0/lib64:/thfs1/software/gcc/8.3.0/lib"
+declare -x LIBRARY_PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/lib64:/thfs1/home/fengxu/wxh/code/qlattice_new/lib:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib:/thfs1/software/blas/3.8.0-gcc8.3.0/lib:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib:/thfs1/software/gcc/8.3.0/lib64:/thfs1/software/gcc/8.3.0/lib"
+declare -x C_INCLUDE_PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/include:/thfs1/home/fengxu/wxh/code/qlattice_new/include/ncurses:/thfs1/software/zlib/1.2.11-gcc8.3.0/include:/thfs1/software/fftw/3.3.8-gcc8.3.0/include:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/include:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/include:/thfs1/software/mpich/mpi-x-gcc8.3.0/include"
+declare -x CPLUS_INCLUDE_PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/include:/thfs1/home/fengxu/wxh/code/qlattice_new/include/ncurses:/thfs1/software/fftw/3.3.8-gcc8.3.0/include"
+declare -x PKG_CONFIG_PATH="/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig"
+declare -x CC="CC.sh"
+declare -x CXX="CXX.sh"
+declare -x CFLAGS=""
+declare -x CXXFLAGS=""
+declare -x LDFLAGS=""
+declare -x LIBS=""
+declare -x MPICC="MPICC.sh"
+declare -x MPICXX="MPICXX.sh"
+declare -x QLAT_PREFIX="/thfs1/home/fengxu/wxh/code/qlattice_new"
+declare -x QLAT_CXX="CXX.sh"
+declare -x QLAT_MPICXX="MPICXX.sh"
+declare -x USE_COMPILER="gcc"
+

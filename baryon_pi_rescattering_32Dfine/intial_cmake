@@ -1,0 +1,16 @@
+module add GCC/10.2.0
+module add mpich/mpi-x-gcc10.2.0
+module add hdf5
+module add gsl
+module add fftw
+module add lapack
+module add blas
+module add bzip2
+module add cmake
+module add zlib
+module add loginnode
+
+ulimit -c unlimited
+
+export prefix=/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58
+# export q_verbose=2

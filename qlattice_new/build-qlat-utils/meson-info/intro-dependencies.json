@@ -1,0 +1,1 @@
+[{"name": "openmp", "version": "4.5", "compile_args": ["-fopenmp"], "link_args": ["-fopenmp"]}, {"name": "zlib", "version": "1.2.11", "compile_args": [], "link_args": ["/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/libz.so"]}]

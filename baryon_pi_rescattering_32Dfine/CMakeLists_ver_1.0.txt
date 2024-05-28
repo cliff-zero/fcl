@@ -1,0 +1,49 @@
+cmake_minimum_required(VERSION 3.12)
+project(contraction_on_qlat)
+
+set(CMAKE_CXX_STANDARD 17)
+set(default_build_type "Release")
+if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
+    message(STATUS "Setting build type to '${default_build_type}' as none was specified.")
+    set(CMAKE_BUILD_TYPE "${default_build_type}" CACHE
+            STRING "Choose the type of build." FORCE)
+    # Set the possible values of build type for cmake-gui
+    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS
+            "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
+endif()
+
+# # set(eigen_path /thfs1/home/fengxu/zywang/local/include/eigen3)
+# set(mpi_prefix /thfs1/software/openmpi/mpi-x-gcc10.2.0)
+
+set(qlat_prefix /thfs1/home/fengxu/Yusheng_Gao/software/Qlat)
+# set(qlat_prefix /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_zyw)
+# set(qlat_prefix /thfs1/home/fengxu/Yusheng_Gao/software/Qlatnew)
+set(QLAT_INCLUDE ${qlat_prefix}/include)
+set(QLAT_LIB ${qlat_prefix}/lib)
+set(EIGEN_INCLUDE ${QLAT_INCLUDE}/eigen3)
+# set(CMAKE_CXX_COMPILER /vol8/home/fengxu1/zywang/software/gcc10/bin/g++)
+set(CMAKE_CXX_COMPILER mpic++)
+set(CMAKE_CXX_FLAGS "-fopenmp -lfftw3 -lfftw3f -lmpi -Wall -Wno-unused-variable")
+# add_definitions(-DNO_ALIGNED_ALLOC)
+
+# link_libraries(${QLAT_LIB}) #/vol8/home/fengxu1/zywang/software/gcc10/lib64
+# link_directories(${QLAT_LIB} ${mpi_prefix}/lib) #/vol8/home/fengxu1/zywang/software/gcc10/lib64
+
+# 修改下面的语句
+add_executable(qlat_exec main.cpp)
+
+# 修改下面的语句
+target_include_directories(qlat_exec PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${QLAT_INCLUDE}
+    # ${QLAT_INCLUDE}/qlat
+    # ${QLAT_INCLUDE}/qlat-utils
+    ${EIGEN_INCLUDE}
+    #${QLAT_INCLUDE}/eigen3
+    #${QLAT_INCLUDE}/qutils
+    #${mpi_prefix}/include
+)
+
+# 修改下面的语句
+target_link_libraries(qlat_exec ${QLAT_LIB}/libqlat.so ${QLAT_LIB}/libqutils.so)
+

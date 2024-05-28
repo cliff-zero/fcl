@@ -1,0 +1,1081 @@
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:24,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:10,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-block-acc.h: In member function ‘qlat::Baryon_SPBlock_No_Projection_Psel_Psel& qlat::Baryon_SPBlock_No_Projection_Psel_Psel::operator*=(const ComplexD&)’:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-block-acc.h:408:40: error: ‘other’ was not declared in this scope
+  408 |             qassert(xg_snk_psel_idx == other.xg_snk_psel_idx);
+      |                                        ^~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/assert.h:45:13: note: in definition of macro ‘qqassert’
+   45 |     if (not(x)) {                                  \
+      |             ^
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-block-acc.h:408:13: note: in expansion of macro ‘qassert’
+  408 |             qassert(xg_snk_psel_idx == other.xg_snk_psel_idx);
+      |             ^~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-block-acc.h:409:40: error: ‘other’ was not declared in this scope
+  409 |             qassert(xg_src_psel_idx == other.xg_src_psel_idx);
+      |                                        ^~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/assert.h:45:13: note: in definition of macro ‘qqassert’
+   45 |     if (not(x)) {                                  \
+      |             ^
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-block-acc.h:409:13: note: in expansion of macro ‘qassert’
+  409 |             qassert(xg_src_psel_idx == other.xg_src_psel_idx);
+      |             ^~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h: In function ‘void qlat::baryon_pion_two_point_arbitrary_coeffience_mate_magic_fsel(const string&, const int&, std::vector<std::vector<std::vector<std::vector<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > > > >&, std::vector<int>&, std::vector<int>&, std::vector<int>&, std::vector<int>&, std::vector<std::vector<long int> >&, std::vector<std::vector<long int> >&, std::vector<int>&, std::vector<int>&, std::vector<std::vector<long int> >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const qlat::FieldSelection&, const qlat::Geometry&, const PointsSelection&, const PointsSelection&, const std::vector<int>&, const std::vector<int>&, bool, bool)’:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: error: no matching function for call to ‘set_zero(__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type&)’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/vector.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:32,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils.h:225:11: note: candidate: ‘template<class T, typename std::enable_if<is_get_data_type<T>(), bool>::type <anonymous> > void qlat::set_zero(T&)’
+  225 | qacc void set_zero(T& xx)
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils.h:225:11: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:49:57: error: no type named ‘type’ in ‘struct std::enable_if<false, bool>’
+   49 | #define QLAT_ENABLE_IF(X) std::enable_if_t<(X), bool> = true
+      |                                                         ^~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils.h:224:20: note: in expansion of macro ‘QLAT_ENABLE_IF’
+  224 | template <class T, QLAT_ENABLE_IF(is_get_data_type<T>())>
+      |                    ^~~~~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:83:11: note: candidate: ‘template<int DIMN, class T> void qlat::set_zero(qlat::MvectorT<DIMN, T>&)’
+   83 | qacc void set_zero(MvectorT<DIMN, T>& m)
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:83:11: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} is not derived from ‘qlat::MvectorT<DIMN, T>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:131:11: note: candidate: ‘template<int DIMN, class T> void qlat::set_zero(qlat::MatrixT<DIMN, T>&)’
+  131 | qacc void set_zero(MatrixT<DIMN, T>& m)
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:131:11: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} is not derived from ‘qlat::MatrixT<DIMN, T>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils-vec.h:150:11: note: candidate: ‘template<class M> void qlat::set_zero(qlat::Vector<M>)’
+  150 | qacc void set_zero(Vector<M> vec)
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils-vec.h:150:11: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’ is not derived from ‘qlat::Vector<M>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils-vec.h:156:11: note: candidate: ‘template<class M, int N> void qlat::set_zero(qlat::Array<M, N>)’
+  156 | qacc void set_zero(Array<M, N> arr)
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/utils-vec.h:156:11: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’ is not derived from ‘qlat::Array<M, N>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:22:11: note: candidate: ‘void qlat::set_zero(qlat::ColorMatrix&)’
+   22 | qacc void set_zero(ColorMatrix& x) { set_zero<3, ComplexD>(x); }
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:22:33: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::ColorMatrix&’ {aka ‘qlat::ColorMatrixT<double>&’}
+   22 | qacc void set_zero(ColorMatrix& x) { set_zero<3, ComplexD>(x); }
+      |                    ~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:23:11: note: candidate: ‘void qlat::set_zero(qlat::SpinMatrix&)’
+   23 | qacc void set_zero(SpinMatrix& x) { set_zero<4, ComplexD>(x); }
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:23:32: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::SpinMatrix&’ {aka ‘qlat::SpinMatrixT<double>&’}
+   23 | qacc void set_zero(SpinMatrix& x) { set_zero<4, ComplexD>(x); }
+      |                    ~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:24:11: note: candidate: ‘void qlat::set_zero(qlat::WilsonMatrix&)’
+   24 | qacc void set_zero(WilsonMatrix& x) { set_zero<12, ComplexD>(x); }
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:24:34: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::WilsonMatrix&’ {aka ‘qlat::WilsonMatrixT<double>&’}
+   24 | qacc void set_zero(WilsonMatrix& x) { set_zero<12, ComplexD>(x); }
+      |                    ~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:25:11: note: candidate: ‘void qlat::set_zero(qlat::NonRelWilsonMatrix&)’
+   25 | qacc void set_zero(NonRelWilsonMatrix& x) { set_zero<6, ComplexD>(x); }
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:25:40: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::NonRelWilsonMatrix&’ {aka ‘qlat::NonRelWilsonMatrixT<double>&’}
+   25 | qacc void set_zero(NonRelWilsonMatrix& x) { set_zero<6, ComplexD>(x); }
+      |                    ~~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:26:11: note: candidate: ‘void qlat::set_zero(qlat::IsospinMatrix&)’
+   26 | qacc void set_zero(IsospinMatrix& x) { set_zero<2, ComplexD>(x); }
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:26:35: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::IsospinMatrix&’ {aka ‘qlat::IsospinMatrixT<double>&’}
+   26 | qacc void set_zero(IsospinMatrix& x) { set_zero<2, ComplexD>(x); }
+      |                    ~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:27:11: note: candidate: ‘void qlat::set_zero(qlat::WilsonVector&)’
+   27 | qacc void set_zero(WilsonVector& x) { set_zero<12, ComplexD>(x); }
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:27:34: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::WilsonVector&’ {aka ‘qlat::WilsonVectorT<double>&’}
+   27 | qacc void set_zero(WilsonVector& x) { set_zero<12, ComplexD>(x); }
+      |                    ~~~~~~~~~~~~~~^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:716:6: note: candidate: ‘template<class M> void qlat::set_zero(qlat::Field<M>&)’
+  716 | void set_zero(Field<M>& f)
+      |      ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:716:6: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} is not derived from ‘qlat::Field<M>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:922:6: note: candidate: ‘template<class M> void qlat::set_zero(qlat::SelectedPoints<M>&)’
+  922 | void set_zero(SelectedPoints<M>& sp)
+      |      ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:922:6: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} is not derived from ‘qlat::SelectedPoints<M>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:1099:6: note: candidate: ‘template<class M> void qlat::set_zero(qlat::SelectedField<M>&)’
+ 1099 | void set_zero(SelectedField<M>& sf)
+      |      ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:1099:6: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} is not derived from ‘qlat::SelectedField<M>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/mpi.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-shuffle.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-dist-io.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:20,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:299:13: note: candidate: ‘void qlat::set_zero(qlat::LatData&)’
+  299 | inline void set_zero(LatData& ld)
+      |             ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:299:31: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} to ‘qlat::LatData&’
+  299 | inline void set_zero(LatData& ld)
+      |                      ~~~~~~~~~^~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/general_funs.h:21,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_FFT_GPU.h:9,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-fft.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:22,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_vector_GPU.h:404:11: note: candidate: ‘template<class Ty> void qlat::set_zero(qlat::vector_gpu<Ty>&)’
+  404 | qacc void set_zero(vector_gpu<Ty>& vec)
+      |           ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_vector_GPU.h:404:11: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-coefficient.h:1051:94: note:   ‘__gnu_cxx::__alloc_traits<std::allocator<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >::value_type’ {aka ‘std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >’} is not derived from ‘qlat::vector_gpu<Ty>’
+ 1051 |                             set_zero(baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dt]);
+      |                                                                                              ^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h: In function ‘void qlat::contract_leading_tiwst_topology_fsel_mate_ultra(const string&, const int&, const std::vector<std::vector<qlat::Baryon_Block_No_Projection_Psel_Psel> >&, const std::vector<std::vector<std::vector<std::vector<std::vector<qlat::Sequential_Prop_2pt_Block> > > > >&, const std::vector<std::vector<std::vector<std::vector<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > > > >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const bool&, const PointsSelection&, const long int&, const std::vector<int>&, const std::vector<int>&, const std::vector<std::vector<long int> >&, const bool&, const PointsSelection&, const long int&, const std::vector<int>&, const std::vector<int>&, const std::vector<std::vector<long int> >&, const std::vector<int>&, const std::vector<int>&, const std::vector<std::vector<long int> >&, const qlat::FieldSelection&, const qlat::Geometry&, const int&, const int&, const int&, const int&, const int&, const int&, const int&, const int&, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >&, const double&, const int&)’:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:137: error: no match for ‘operator*’ (operand types are ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} and ‘qlat::ComplexD’ {aka ‘std::complex<double>’})
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:43:24: note: candidate: ‘template<int DIMN, class T> qlat::MvectorT<DIMN, T> qlat::operator*(const T&, const qlat::MvectorT<DIMN, T>&)’
+   43 | qacc MvectorT<DIMN, T> operator*(const T& x, const MvectorT<DIMN, T>& y)
+      |                        ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:43:24: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘qlat::ComplexD’ {aka ‘std::complex<double>’} is not derived from ‘const qlat::MvectorT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:53:24: note: candidate: ‘template<int DIMN, class T> qlat::MvectorT<DIMN, T> qlat::operator*(const qlat::MvectorT<DIMN, T>&, const T&)’
+   53 | qacc MvectorT<DIMN, T> operator*(const MvectorT<DIMN, T>& x, const T& y)
+      |                        ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:53:24: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MvectorT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:45:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, const qlat::MatrixT<DIMN, T>&)’
+   45 | qacc MatrixT<DIMN, T> operator*(const MatrixT<DIMN, T>& x,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:45:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:65:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(double, const qlat::MatrixT<DIMN, T>&)’
+   65 | qacc MatrixT<DIMN, T> operator*(const double x, const MatrixT<DIMN, T>& y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:65:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘qlat::ComplexD’ {aka ‘std::complex<double>’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:75:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, double)’
+   75 | qacc MatrixT<DIMN, T> operator*(const MatrixT<DIMN, T>& x, const double y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:75:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:85:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const ComplexD&, const qlat::MatrixT<DIMN, T>&)’
+   85 | qacc MatrixT<DIMN, T> operator*(const ComplexD& x, const MatrixT<DIMN, T>& y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:85:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘qlat::ComplexD’ {aka ‘std::complex<double>’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:95:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, const ComplexD&)’
+   95 | qacc MatrixT<DIMN, T> operator*(const MatrixT<DIMN, T>& x, const ComplexD& y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:95:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:115:24: note: candidate: ‘template<int DIMN, class T> qlat::MvectorT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, const qlat::MvectorT<DIMN, T>&)’
+  115 | qacc MvectorT<DIMN, T> operator*(const MatrixT<DIMN, T>& x,
+      |                        ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:115:24: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:536:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::ColorMatrixT<T>&, const qlat::WilsonMatrixT<T>&)’
+  536 | qacc WilsonMatrixT<T> operator*(const ColorMatrixT<T>& cm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:536:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::ColorMatrixT<T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:560:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::WilsonMatrixT<T>&, const qlat::ColorMatrixT<T>&)’
+  560 | qacc WilsonMatrixT<T> operator*(const WilsonMatrixT<T>& m,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:560:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::WilsonMatrixT<T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:583:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::SpinMatrixT<T>&, const qlat::WilsonMatrixT<T>&)’
+  583 | qacc WilsonMatrixT<T> operator*(const SpinMatrixT<T>& sm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:583:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::SpinMatrixT<T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:611:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::WilsonMatrixT<T>&, const qlat::SpinMatrixT<T>&)’
+  611 | qacc WilsonMatrixT<T> operator*(const WilsonMatrixT<T>& m,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:611:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::WilsonMatrixT<T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:689:23: note: candidate: ‘template<class T> qlat::WilsonVectorT<T> qlat::operator*(const qlat::ColorMatrixT<T>&, const qlat::WilsonVectorT<T>&)’
+  689 | qacc WilsonVectorT<T> operator*(const ColorMatrixT<T>& cm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:689:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::ColorMatrixT<T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:706:23: note: candidate: ‘template<class T> qlat::WilsonVectorT<T> qlat::operator*(const qlat::SpinMatrixT<T>&, const qlat::WilsonVectorT<T>&)’
+  706 | qacc WilsonVectorT<T> operator*(const SpinMatrixT<T>& sm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:706:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::SpinMatrixT<T>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:29:17: note: candidate: ‘qlat::SpinMatrix qlat::operator*(const SpinMatrix&, const SpinMatrix&)’
+   29 | qacc SpinMatrix operator*(const SpinMatrix& m1, const SpinMatrix& m2)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:29:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const SpinMatrix&’ {aka ‘const qlat::SpinMatrixT<double>&’}
+   29 | qacc SpinMatrix operator*(const SpinMatrix& m1, const SpinMatrix& m2)
+      |                           ~~~~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:34:17: note: candidate: ‘qlat::SpinMatrix qlat::operator*(const ComplexD&, const SpinMatrix&)’
+   34 | qacc SpinMatrix operator*(const ComplexD& a, const SpinMatrix& m)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:34:43: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const ComplexD&’ {aka ‘const std::complex<double>&’}
+   34 | qacc SpinMatrix operator*(const ComplexD& a, const SpinMatrix& m)
+      |                           ~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:39:17: note: candidate: ‘qlat::SpinMatrix qlat::operator*(const SpinMatrix&, const ComplexD&)’
+   39 | qacc SpinMatrix operator*(const SpinMatrix& m, const ComplexD& a)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:39:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const SpinMatrix&’ {aka ‘const qlat::SpinMatrixT<double>&’}
+   39 | qacc SpinMatrix operator*(const SpinMatrix& m, const ComplexD& a)
+      |                           ~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:44:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const WilsonMatrix&, const WilsonMatrix&)’
+   44 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const WilsonMatrix& m2)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:44:49: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const WilsonMatrix&’ {aka ‘const qlat::WilsonMatrixT<double>&’}
+   44 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const WilsonMatrix& m2)
+      |                             ~~~~~~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:49:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const ComplexD&, const WilsonMatrix&)’
+   49 | qacc WilsonMatrix operator*(const ComplexD& a, const WilsonMatrix& m)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:49:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const ComplexD&’ {aka ‘const std::complex<double>&’}
+   49 | qacc WilsonMatrix operator*(const ComplexD& a, const WilsonMatrix& m)
+      |                             ~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:54:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const WilsonMatrix&, const ComplexD&)’
+   54 | qacc WilsonMatrix operator*(const WilsonMatrix& m, const ComplexD& a)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:54:49: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const WilsonMatrix&’ {aka ‘const qlat::WilsonMatrixT<double>&’}
+   54 | qacc WilsonMatrix operator*(const WilsonMatrix& m, const ComplexD& a)
+      |                             ~~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:59:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const SpinMatrix&, const WilsonMatrix&)’
+   59 | qacc WilsonMatrix operator*(const SpinMatrix& m1, const WilsonMatrix& m2)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:59:47: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const SpinMatrix&’ {aka ‘const qlat::SpinMatrixT<double>&’}
+   59 | qacc WilsonMatrix operator*(const SpinMatrix& m1, const WilsonMatrix& m2)
+      |                             ~~~~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:64:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const WilsonMatrix&, const SpinMatrix&)’
+   64 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const SpinMatrix& m2)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:64:49: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const WilsonMatrix&’ {aka ‘const qlat::WilsonMatrixT<double>&’}
+   64 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const SpinMatrix& m2)
+      |                             ~~~~~~~~~~~~~~~~~~~~^~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:10,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:211:17: note: candidate: ‘qlat::Coordinate qlat::operator*(int, const qlat::Coordinate&)’
+  211 | qacc Coordinate operator*(const int integer, const Coordinate& coor)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:211:37: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘int’
+  211 | qacc Coordinate operator*(const int integer, const Coordinate& coor)
+      |                           ~~~~~~~~~~^~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:217:17: note: candidate: ‘qlat::Coordinate qlat::operator*(const qlat::Coordinate&, int)’
+  217 | qacc Coordinate operator*(const Coordinate& coor, const int integer)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:217:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::Coordinate&’
+  217 | qacc Coordinate operator*(const Coordinate& coor, const int integer)
+      |                           ~~~~~~~~~~~~~~~~~~^~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:222:17: note: candidate: ‘qlat::Coordinate qlat::operator*(const qlat::Coordinate&, const qlat::Coordinate&)’
+  222 | qacc Coordinate operator*(const Coordinate& coor1, const Coordinate& coor2)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:222:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::Coordinate&’
+  222 | qacc Coordinate operator*(const Coordinate& coor1, const Coordinate& coor2)
+      |                           ~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/mpi.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-shuffle.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-dist-io.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:20,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:171:9: note: candidate: ‘qlat::LatData qlat::operator*(const qlat::LatData&, double)’
+  171 | LatData operator*(const LatData& ld, const double factor);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:171:34: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::LatData&’
+  171 | LatData operator*(const LatData& ld, const double factor);
+      |                   ~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:173:9: note: candidate: ‘qlat::LatData qlat::operator*(double, const qlat::LatData&)’
+  173 | LatData operator*(const double factor, const LatData& ld);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:173:32: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘double’
+  173 | LatData operator*(const double factor, const LatData& ld);
+      |                   ~~~~~~~~~~~~~^~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:175:9: note: candidate: ‘qlat::LatData qlat::operator*(const qlat::LatData&, const ComplexD&)’
+  175 | LatData operator*(const LatData& ld, const ComplexD& factor);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:175:34: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::LatData&’
+  175 | LatData operator*(const LatData& ld, const ComplexD& factor);
+      |                   ~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:177:9: note: candidate: ‘qlat::LatData qlat::operator*(const ComplexD&, const qlat::LatData&)’
+  177 | LatData operator*(const ComplexD& factor, const LatData& ld);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:177:35: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const ComplexD&’ {aka ‘const std::complex<double>&’}
+  177 | LatData operator*(const ComplexD& factor, const LatData& ld);
+      |                   ~~~~~~~~~~~~~~~~^~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/utils-coordinate.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/mpi.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-shuffle.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-dist-io.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:20,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:43:18: note: candidate: ‘qlat::CoordinateD qlat::operator*(double, const qlat::CoordinateD&)’
+   43 | qacc CoordinateD operator*(const double a, const CoordinateD& c)
+      |                  ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:43:41: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘double’
+   43 | qacc CoordinateD operator*(const double a, const CoordinateD& c)
+      |                            ~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:50:18: note: candidate: ‘qlat::CoordinateD qlat::operator*(const qlat::CoordinateD&, double)’
+   50 | qacc CoordinateD operator*(const CoordinateD& c, const double a)
+      |                  ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:50:47: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::CoordinateD&’
+   50 | qacc CoordinateD operator*(const CoordinateD& c, const double a)
+      |                            ~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:69:18: note: candidate: ‘qlat::CoordinateD qlat::operator*(const qlat::CoordinateD&, const qlat::CoordinateD&)’
+   69 | qacc CoordinateD operator*(const CoordinateD& c1, const CoordinateD& c2)
+      |                  ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:69:47: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::CoordinateD&’
+   69 | qacc CoordinateD operator*(const CoordinateD& c1, const CoordinateD& c2)
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/general_funs.h:16,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_FFT_GPU.h:9,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-fft.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:22,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:322:29: note: candidate: ‘std::complex<double> qlat::operator*(const std::complex<float>&, const std::complex<double>&)’
+  322 | inline std::complex<double> operator*(const std::complex<float> &a, const std::complex<double > &b) {
+      |                             ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:322:66: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const std::complex<float>&’
+  322 | inline std::complex<double> operator*(const std::complex<float> &a, const std::complex<double > &b) {
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:326:29: note: candidate: ‘std::complex<double> qlat::operator*(const std::complex<double>&, const std::complex<float>&)’
+  326 | inline std::complex<double> operator*(const std::complex<double > &b, const std::complex<float> &a) {
+      |                             ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:326:68: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const std::complex<double>&’
+  326 | inline std::complex<double> operator*(const std::complex<double > &b, const std::complex<float> &a) {
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/complex:391:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)’
+  391 |     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     ^~~~~~~~
+/usr/local/gcc102/include/c++/10.2.0/complex:391:5: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const std::complex<_Tp>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/complex:400:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)’
+  400 |     operator*(const complex<_Tp>& __x, const _Tp& __y)
+      |     ^~~~~~~~
+/usr/local/gcc102/include/c++/10.2.0/complex:400:5: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const std::complex<_Tp>’
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/complex:409:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)’
+  409 |     operator*(const _Tp& __x, const complex<_Tp>& __y)
+      |     ^~~~~~~~
+/usr/local/gcc102/include/c++/10.2.0/complex:409:5: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:151:149: note:   deduced conflicting types for parameter ‘_Tp’ (‘std::vector<std::complex<double>, std::allocator<std::complex<double> > >’ and ‘double’)
+  151 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h: In function ‘void qlat::contract_highter_tiwst_topology(const string&, const int&, const std::vector<std::vector<std::vector<std::vector<qlat::Sequential_Prop_1pt_Block> > > >&, std::vector<std::vector<std::vector<qlat::Sequential_Prop_1pt_Block> > >&, const std::vector<std::vector<std::vector<std::vector<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > > > >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const bool&, const PointsSelection&, const long int&, const std::vector<int>&, const std::vector<int>&, const std::vector<std::vector<long int> >&, const bool&, const PointsSelection&, const long int&, const std::vector<int>&, const std::vector<int>&, const std::vector<std::vector<long int> >&, const std::vector<int>&, const std::vector<int>&, const std::vector<std::vector<long int> >&, const qlat::FieldSelection&, const qlat::Geometry&, const int&, const int&, const int&, const int&, const int&, const int&, std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > > >&, const double&, const int&)’:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:137: error: no match for ‘operator*’ (operand types are ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} and ‘qlat::ComplexD’ {aka ‘std::complex<double>’})
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:43:24: note: candidate: ‘template<int DIMN, class T> qlat::MvectorT<DIMN, T> qlat::operator*(const T&, const qlat::MvectorT<DIMN, T>&)’
+   43 | qacc MvectorT<DIMN, T> operator*(const T& x, const MvectorT<DIMN, T>& y)
+      |                        ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:43:24: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘qlat::ComplexD’ {aka ‘std::complex<double>’} is not derived from ‘const qlat::MvectorT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:53:24: note: candidate: ‘template<int DIMN, class T> qlat::MvectorT<DIMN, T> qlat::operator*(const qlat::MvectorT<DIMN, T>&, const T&)’
+   53 | qacc MvectorT<DIMN, T> operator*(const MvectorT<DIMN, T>& x, const T& y)
+      |                        ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mvector.h:53:24: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MvectorT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:45:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, const qlat::MatrixT<DIMN, T>&)’
+   45 | qacc MatrixT<DIMN, T> operator*(const MatrixT<DIMN, T>& x,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:45:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:65:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(double, const qlat::MatrixT<DIMN, T>&)’
+   65 | qacc MatrixT<DIMN, T> operator*(const double x, const MatrixT<DIMN, T>& y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:65:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘qlat::ComplexD’ {aka ‘std::complex<double>’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:75:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, double)’
+   75 | qacc MatrixT<DIMN, T> operator*(const MatrixT<DIMN, T>& x, const double y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:75:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:85:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const ComplexD&, const qlat::MatrixT<DIMN, T>&)’
+   85 | qacc MatrixT<DIMN, T> operator*(const ComplexD& x, const MatrixT<DIMN, T>& y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:85:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘qlat::ComplexD’ {aka ‘std::complex<double>’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:95:23: note: candidate: ‘template<int DIMN, class T> qlat::MatrixT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, const ComplexD&)’
+   95 | qacc MatrixT<DIMN, T> operator*(const MatrixT<DIMN, T>& x, const ComplexD& y)
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:95:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:115:24: note: candidate: ‘template<int DIMN, class T> qlat::MvectorT<DIMN, T> qlat::operator*(const qlat::MatrixT<DIMN, T>&, const qlat::MvectorT<DIMN, T>&)’
+  115 | qacc MvectorT<DIMN, T> operator*(const MatrixT<DIMN, T>& x,
+      |                        ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:115:24: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::MatrixT<DIMN, T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:536:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::ColorMatrixT<T>&, const qlat::WilsonMatrixT<T>&)’
+  536 | qacc WilsonMatrixT<T> operator*(const ColorMatrixT<T>& cm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:536:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::ColorMatrixT<T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:560:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::WilsonMatrixT<T>&, const qlat::ColorMatrixT<T>&)’
+  560 | qacc WilsonMatrixT<T> operator*(const WilsonMatrixT<T>& m,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:560:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::WilsonMatrixT<T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:583:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::SpinMatrixT<T>&, const qlat::WilsonMatrixT<T>&)’
+  583 | qacc WilsonMatrixT<T> operator*(const SpinMatrixT<T>& sm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:583:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::SpinMatrixT<T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:611:23: note: candidate: ‘template<class T> qlat::WilsonMatrixT<T> qlat::operator*(const qlat::WilsonMatrixT<T>&, const qlat::SpinMatrixT<T>&)’
+  611 | qacc WilsonMatrixT<T> operator*(const WilsonMatrixT<T>& m,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:611:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::WilsonMatrixT<T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:689:23: note: candidate: ‘template<class T> qlat::WilsonVectorT<T> qlat::operator*(const qlat::ColorMatrixT<T>&, const qlat::WilsonVectorT<T>&)’
+  689 | qacc WilsonVectorT<T> operator*(const ColorMatrixT<T>& cm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:689:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::ColorMatrixT<T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix-hmc.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:706:23: note: candidate: ‘template<class T> qlat::WilsonVectorT<T> qlat::operator*(const qlat::SpinMatrixT<T>&, const qlat::WilsonVectorT<T>&)’
+  706 | qacc WilsonVectorT<T> operator*(const SpinMatrixT<T>& sm,
+      |                       ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/matrix.h:706:23: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const qlat::SpinMatrixT<T>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:29:17: note: candidate: ‘qlat::SpinMatrix qlat::operator*(const SpinMatrix&, const SpinMatrix&)’
+   29 | qacc SpinMatrix operator*(const SpinMatrix& m1, const SpinMatrix& m2)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:29:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const SpinMatrix&’ {aka ‘const qlat::SpinMatrixT<double>&’}
+   29 | qacc SpinMatrix operator*(const SpinMatrix& m1, const SpinMatrix& m2)
+      |                           ~~~~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:34:17: note: candidate: ‘qlat::SpinMatrix qlat::operator*(const ComplexD&, const SpinMatrix&)’
+   34 | qacc SpinMatrix operator*(const ComplexD& a, const SpinMatrix& m)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:34:43: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const ComplexD&’ {aka ‘const std::complex<double>&’}
+   34 | qacc SpinMatrix operator*(const ComplexD& a, const SpinMatrix& m)
+      |                           ~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:39:17: note: candidate: ‘qlat::SpinMatrix qlat::operator*(const SpinMatrix&, const ComplexD&)’
+   39 | qacc SpinMatrix operator*(const SpinMatrix& m, const ComplexD& a)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:39:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const SpinMatrix&’ {aka ‘const qlat::SpinMatrixT<double>&’}
+   39 | qacc SpinMatrix operator*(const SpinMatrix& m, const ComplexD& a)
+      |                           ~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:44:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const WilsonMatrix&, const WilsonMatrix&)’
+   44 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const WilsonMatrix& m2)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:44:49: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const WilsonMatrix&’ {aka ‘const qlat::WilsonMatrixT<double>&’}
+   44 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const WilsonMatrix& m2)
+      |                             ~~~~~~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:49:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const ComplexD&, const WilsonMatrix&)’
+   49 | qacc WilsonMatrix operator*(const ComplexD& a, const WilsonMatrix& m)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:49:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const ComplexD&’ {aka ‘const std::complex<double>&’}
+   49 | qacc WilsonMatrix operator*(const ComplexD& a, const WilsonMatrix& m)
+      |                             ~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:54:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const WilsonMatrix&, const ComplexD&)’
+   54 | qacc WilsonMatrix operator*(const WilsonMatrix& m, const ComplexD& a)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:54:49: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const WilsonMatrix&’ {aka ‘const qlat::WilsonMatrixT<double>&’}
+   54 | qacc WilsonMatrix operator*(const WilsonMatrix& m, const ComplexD& a)
+      |                             ~~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:59:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const SpinMatrix&, const WilsonMatrix&)’
+   59 | qacc WilsonMatrix operator*(const SpinMatrix& m1, const WilsonMatrix& m2)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:59:47: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const SpinMatrix&’ {aka ‘const qlat::SpinMatrixT<double>&’}
+   59 | qacc WilsonMatrix operator*(const SpinMatrix& m1, const WilsonMatrix& m2)
+      |                             ~~~~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:64:19: note: candidate: ‘qlat::WilsonMatrix qlat::operator*(const WilsonMatrix&, const SpinMatrix&)’
+   64 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const SpinMatrix& m2)
+      |                   ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/mat.h:64:49: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const WilsonMatrix&’ {aka ‘const qlat::WilsonMatrixT<double>&’}
+   64 | qacc WilsonMatrix operator*(const WilsonMatrix& m1, const SpinMatrix& m2)
+      |                             ~~~~~~~~~~~~~~~~~~~~^~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/core.h:10,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:18,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:211:17: note: candidate: ‘qlat::Coordinate qlat::operator*(int, const qlat::Coordinate&)’
+  211 | qacc Coordinate operator*(const int integer, const Coordinate& coor)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:211:37: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘int’
+  211 | qacc Coordinate operator*(const int integer, const Coordinate& coor)
+      |                           ~~~~~~~~~~^~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:217:17: note: candidate: ‘qlat::Coordinate qlat::operator*(const qlat::Coordinate&, int)’
+  217 | qacc Coordinate operator*(const Coordinate& coor, const int integer)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:217:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::Coordinate&’
+  217 | qacc Coordinate operator*(const Coordinate& coor, const int integer)
+      |                           ~~~~~~~~~~~~~~~~~~^~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:222:17: note: candidate: ‘qlat::Coordinate qlat::operator*(const qlat::Coordinate&, const qlat::Coordinate&)’
+  222 | qacc Coordinate operator*(const Coordinate& coor1, const Coordinate& coor2)
+      |                 ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate.h:222:45: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::Coordinate&’
+  222 | qacc Coordinate operator*(const Coordinate& coor1, const Coordinate& coor2)
+      |                           ~~~~~~~~~~~~~~~~~~^~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/mpi.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-shuffle.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-dist-io.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:20,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:171:9: note: candidate: ‘qlat::LatData qlat::operator*(const qlat::LatData&, double)’
+  171 | LatData operator*(const LatData& ld, const double factor);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:171:34: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::LatData&’
+  171 | LatData operator*(const LatData& ld, const double factor);
+      |                   ~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:173:9: note: candidate: ‘qlat::LatData qlat::operator*(double, const qlat::LatData&)’
+  173 | LatData operator*(const double factor, const LatData& ld);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:173:32: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘double’
+  173 | LatData operator*(const double factor, const LatData& ld);
+      |                   ~~~~~~~~~~~~~^~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:175:9: note: candidate: ‘qlat::LatData qlat::operator*(const qlat::LatData&, const ComplexD&)’
+  175 | LatData operator*(const LatData& ld, const ComplexD& factor);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:175:34: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::LatData&’
+  175 | LatData operator*(const LatData& ld, const ComplexD& factor);
+      |                   ~~~~~~~~~~~~~~~^~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:177:9: note: candidate: ‘qlat::LatData qlat::operator*(const ComplexD&, const qlat::LatData&)’
+  177 | LatData operator*(const ComplexD& factor, const LatData& ld);
+      |         ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/lat-io.h:177:35: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const ComplexD&’ {aka ‘const std::complex<double>&’}
+  177 | LatData operator*(const ComplexD& factor, const LatData& ld);
+      |                   ~~~~~~~~~~~~~~~~^~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/utils-coordinate.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/mpi.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-shuffle.h:5,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-dist-io.h:6,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:20,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:43:18: note: candidate: ‘qlat::CoordinateD qlat::operator*(double, const qlat::CoordinateD&)’
+   43 | qacc CoordinateD operator*(const double a, const CoordinateD& c)
+      |                  ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:43:41: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘double’
+   43 | qacc CoordinateD operator*(const double a, const CoordinateD& c)
+      |                            ~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:50:18: note: candidate: ‘qlat::CoordinateD qlat::operator*(const qlat::CoordinateD&, double)’
+   50 | qacc CoordinateD operator*(const CoordinateD& c, const double a)
+      |                  ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:50:47: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::CoordinateD&’
+   50 | qacc CoordinateD operator*(const CoordinateD& c, const double a)
+      |                            ~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:69:18: note: candidate: ‘qlat::CoordinateD qlat::operator*(const qlat::CoordinateD&, const qlat::CoordinateD&)’
+   69 | qacc CoordinateD operator*(const CoordinateD& c1, const CoordinateD& c2)
+      |                  ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/coordinate-d.h:69:47: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const qlat::CoordinateD&’
+   69 | qacc CoordinateD operator*(const CoordinateD& c1, const CoordinateD& c2)
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/general_funs.h:16,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_FFT_GPU.h:9,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/field-fft.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/compressed-eigen-io.h:22,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:322:29: note: candidate: ‘std::complex<double> qlat::operator*(const std::complex<float>&, const std::complex<double>&)’
+  322 | inline std::complex<double> operator*(const std::complex<float> &a, const std::complex<double > &b) {
+      |                             ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:322:66: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const std::complex<float>&’
+  322 | inline std::complex<double> operator*(const std::complex<float> &a, const std::complex<double > &b) {
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:326:29: note: candidate: ‘std::complex<double> qlat::operator*(const std::complex<double>&, const std::complex<float>&)’
+  326 | inline std::complex<double> operator*(const std::complex<double > &b, const std::complex<float> &a) {
+      |                             ^~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/vector_utils/utils_float_type.h:326:68: note:   no known conversion for argument 1 from ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} to ‘const std::complex<double>&’
+  326 | inline std::complex<double> operator*(const std::complex<double > &b, const std::complex<float> &a) {
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/complex:391:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)’
+  391 |     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     ^~~~~~~~
+/usr/local/gcc102/include/c++/10.2.0/complex:391:5: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const std::complex<_Tp>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/complex:400:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)’
+  400 |     operator*(const complex<_Tp>& __x, const _Tp& __y)
+      |     ^~~~~~~~
+/usr/local/gcc102/include/c++/10.2.0/complex:400:5: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   ‘const value_type’ {aka ‘const std::vector<std::complex<double>, std::allocator<std::complex<double> > >’} is not derived from ‘const std::complex<_Tp>’
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+In file included from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/complex.h:7,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:23,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/complex:409:5: note: candidate: ‘template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)’
+  409 |     operator*(const _Tp& __x, const complex<_Tp>& __y)
+      |     ^~~~~~~~
+/usr/local/gcc102/include/c++/10.2.0/complex:409:5: note:   template argument deduction/substitution failed:
+In file included from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:468:149: note:   deduced conflicting types for parameter ‘_Tp’ (‘std::vector<std::complex<double>, std::allocator<std::complex<double> > >’ and ‘double’)
+  468 |                                         const ComplexD normal_coeff = baryon_pi_two_func_coeff[ti][mom_src_id][mom_snk_id][dtxy][phase] * (ComplexD)anti_period;
+      |                                                                                                                                                     ^~~~~~~~~~~
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h: In function ‘void qlat::compute_baryon_pi_rescattering_fsel_arbitrarty_func_psel_type(const string&, const int&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const std::vector<std::vector<int> >&, const std::vector<int>&, const std::vector<int>&, bool, bool)’:
+/thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:720:52: error: no matching function for call to ‘std::vector<qlat::LatData>::size(const int&)’
+  720 |             baryon_pi_data_result[ti].size(num_dtxy);
+      |                                                    ^
+In file included from /usr/local/gcc102/include/c++/10.2.0/vector:67,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/show.h:31,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/array.h:4,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat-utils/core.h:21,
+                 from /thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include/qlat/qlat.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load-base.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/data-load.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/baryon-pion-two-point-function-arbitrary-fsel-MATE-ULTRA-MAGIC.h:3,
+                 from /thfs1/home/fengxu/Yusheng_Gao/GYS_Contraction/baryon_pi_rescattering_32Dfine/main.cpp:14:
+/usr/local/gcc102/include/c++/10.2.0/bits/stl_vector.h:918:7: note: candidate: ‘std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = qlat::LatData; _Alloc = std::allocator<qlat::LatData>; std::vector<_Tp, _Alloc>::size_type = long unsigned int]’
+  918 |       size() const _GLIBCXX_NOEXCEPT
+      |       ^~~~
+/usr/local/gcc102/include/c++/10.2.0/bits/stl_vector.h:918:7: note:   candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/qlat.x.dir/build.make:76: CMakeFiles/qlat.x.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/qlat.x.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2

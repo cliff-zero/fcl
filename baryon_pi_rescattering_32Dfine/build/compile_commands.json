@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/thfs1/home/fengxu/fcl/baryon_pi_rescattering_32Dfine/build",
+  "command": "mpic++   -I/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/include -I/thfs1/home/fengxu/Yusheng_Gao/software/Qlat_0_58/eigen3  -fopenmp -lfftw3 -lfftw3f -lmpi -Wall -Wno-unused-variable -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/qlat.x.dir/main.cpp.o -c /thfs1/home/fengxu/fcl/baryon_pi_rescattering_32Dfine/main.cpp",
+  "file": "/thfs1/home/fengxu/fcl/baryon_pi_rescattering_32Dfine/main.cpp"
+}
+]

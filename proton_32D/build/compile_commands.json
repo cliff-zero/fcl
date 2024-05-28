@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/thfs1/home/fengxu/fcl/proton_32D/build",
+    "command": "CXX.sh -Iqlat.x@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -std=c++14 -O2 -fno-strict-aliasing -pthread -fopenmp -MD -MQ 'qlat.x@exe/main.cpp.o' -MF 'qlat.x@exe/main.cpp.o.d' -o 'qlat.x@exe/main.cpp.o' -c /thfs1/home/fengxu/fcl/proton_32D/main.cpp",
+    "file": "/thfs1/home/fengxu/fcl/proton_32D/main.cpp",
+    "output": "qlat.x@exe/main.cpp.o"
+  }
+]

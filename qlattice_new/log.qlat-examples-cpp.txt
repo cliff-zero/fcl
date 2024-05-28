@@ -1,0 +1,1605 @@
+!!!! build qlat-examples-cpp !!!!
+sending incremental file list
+examples-cpp/
+examples-cpp/LICENSE
+examples-cpp/Makefile
+examples-cpp/benchmark/
+examples-cpp/benchmark/Makefile
+examples-cpp/benchmark/log
+examples-cpp/benchmark/log.full
+examples-cpp/benchmark/main.cpp
+examples-cpp/benchmark/meson.build
+examples-cpp/benchmark/run.sh
+examples-cpp/benchmark/build/
+examples-cpp/benchmark/build/.ninja_deps
+examples-cpp/benchmark/build/.ninja_log
+examples-cpp/benchmark/build/build.ninja
+examples-cpp/benchmark/build/compile_commands.json
+examples-cpp/benchmark/build/qlat.x
+examples-cpp/benchmark/build/meson-info/
+examples-cpp/benchmark/build/meson-info/intro-benchmarks.json
+examples-cpp/benchmark/build/meson-info/intro-buildoptions.json
+examples-cpp/benchmark/build/meson-info/intro-buildsystem_files.json
+examples-cpp/benchmark/build/meson-info/intro-dependencies.json
+examples-cpp/benchmark/build/meson-info/intro-installed.json
+examples-cpp/benchmark/build/meson-info/intro-projectinfo.json
+examples-cpp/benchmark/build/meson-info/intro-targets.json
+examples-cpp/benchmark/build/meson-info/intro-tests.json
+examples-cpp/benchmark/build/meson-info/meson-info.json
+examples-cpp/benchmark/build/meson-logs/
+examples-cpp/benchmark/build/meson-logs/meson-log.txt
+examples-cpp/benchmark/build/meson-private/
+examples-cpp/benchmark/build/meson-private/build.dat
+examples-cpp/benchmark/build/meson-private/cmd_line.txt
+examples-cpp/benchmark/build/meson-private/coredata.dat
+examples-cpp/benchmark/build/meson-private/install.dat
+examples-cpp/benchmark/build/meson-private/meson.lock
+examples-cpp/benchmark/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/benchmark/build/meson-private/meson_test_setup.dat
+examples-cpp/benchmark/build/meson-private/sanitycheckcpp.cc
+examples-cpp/benchmark/build/meson-private/sanitycheckcpp.exe
+examples-cpp/benchmark/build/qlat.x@exe/
+examples-cpp/benchmark/build/qlat.x@exe/main.cpp.o
+examples-cpp/cps-to-gwu/
+examples-cpp/cps-to-gwu/control_FFT_GPU.cpp
+examples-cpp/cps-to-gwu/control_Ov_Low.cpp
+examples-cpp/cps-to-gwu/control_check_omp.cpp
+examples-cpp/cps-to-gwu/control_inv_clover_quda.cpp
+examples-cpp/cps-to-gwu/control_inv_staggered_quda.cpp
+examples-cpp/cps-to-gwu/control_matrix_multi.cpp
+examples-cpp/cps-to-gwu/control_point_hadron.cpp
+examples-cpp/cps-to-gwu/control_reduce.cpp
+examples-cpp/cps-to-gwu/control_rho_low.cpp
+examples-cpp/cps-to-gwu/control_shift_vecs.cpp
+examples-cpp/cps-to-gwu/control_smear_prop.cpp
+examples-cpp/cps-to-gwu/control_smear_prop_test.cpp
+examples-cpp/cps-to-gwu/control_test_Eigen_qacc.cpp
+examples-cpp/cps-to-gwu/control_test_GPU_mem.cpp
+examples-cpp/cps-to-gwu/control_test_Tdata_distribute.cpp
+examples-cpp/cps-to-gwu/control_test_mem_qacc.cpp
+examples-cpp/cps-to-gwu/control_test_resize.cpp
+examples-cpp/cps-to-gwu/control_test_sparse_save.cpp
+examples-cpp/cps-to-gwu/control_write_eigen.cpp
+examples-cpp/cps-to-gwu/cpu_Makefile
+examples-cpp/cps-to-gwu/gpu_Makefile
+examples-cpp/dist-io/
+examples-cpp/dist-io/Makefile
+examples-cpp/dist-io/log
+examples-cpp/dist-io/log.full
+examples-cpp/dist-io/main.cpp
+examples-cpp/dist-io/meson.build
+examples-cpp/dist-io/run.sh
+examples-cpp/dist-io/build/
+examples-cpp/dist-io/build/.ninja_deps
+examples-cpp/dist-io/build/.ninja_log
+examples-cpp/dist-io/build/build.ninja
+examples-cpp/dist-io/build/compile_commands.json
+examples-cpp/dist-io/build/qlat.x
+examples-cpp/dist-io/build/meson-info/
+examples-cpp/dist-io/build/meson-info/intro-benchmarks.json
+examples-cpp/dist-io/build/meson-info/intro-buildoptions.json
+examples-cpp/dist-io/build/meson-info/intro-buildsystem_files.json
+examples-cpp/dist-io/build/meson-info/intro-dependencies.json
+examples-cpp/dist-io/build/meson-info/intro-installed.json
+examples-cpp/dist-io/build/meson-info/intro-projectinfo.json
+examples-cpp/dist-io/build/meson-info/intro-targets.json
+examples-cpp/dist-io/build/meson-info/intro-tests.json
+examples-cpp/dist-io/build/meson-info/meson-info.json
+examples-cpp/dist-io/build/meson-logs/
+examples-cpp/dist-io/build/meson-logs/meson-log.txt
+examples-cpp/dist-io/build/meson-private/
+examples-cpp/dist-io/build/meson-private/build.dat
+examples-cpp/dist-io/build/meson-private/cmd_line.txt
+examples-cpp/dist-io/build/meson-private/coredata.dat
+examples-cpp/dist-io/build/meson-private/install.dat
+examples-cpp/dist-io/build/meson-private/meson.lock
+examples-cpp/dist-io/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/dist-io/build/meson-private/meson_test_setup.dat
+examples-cpp/dist-io/build/meson-private/sanitycheckcpp.cc
+examples-cpp/dist-io/build/meson-private/sanitycheckcpp.exe
+examples-cpp/dist-io/build/qlat.x@exe/
+examples-cpp/dist-io/build/qlat.x@exe/main.cpp.o
+examples-cpp/dslash-tests/
+examples-cpp/dslash-tests/Makefile
+examples-cpp/dslash-tests/log
+examples-cpp/dslash-tests/log.full
+examples-cpp/dslash-tests/main.cpp
+examples-cpp/dslash-tests/meson.build
+examples-cpp/dslash-tests/run.sh
+examples-cpp/dslash-tests/build/
+examples-cpp/dslash-tests/build/.ninja_deps
+examples-cpp/dslash-tests/build/.ninja_log
+examples-cpp/dslash-tests/build/build.ninja
+examples-cpp/dslash-tests/build/compile_commands.json
+examples-cpp/dslash-tests/build/qlat.x
+examples-cpp/dslash-tests/build/meson-info/
+examples-cpp/dslash-tests/build/meson-info/intro-benchmarks.json
+examples-cpp/dslash-tests/build/meson-info/intro-buildoptions.json
+examples-cpp/dslash-tests/build/meson-info/intro-buildsystem_files.json
+examples-cpp/dslash-tests/build/meson-info/intro-dependencies.json
+examples-cpp/dslash-tests/build/meson-info/intro-installed.json
+examples-cpp/dslash-tests/build/meson-info/intro-projectinfo.json
+examples-cpp/dslash-tests/build/meson-info/intro-targets.json
+examples-cpp/dslash-tests/build/meson-info/intro-tests.json
+examples-cpp/dslash-tests/build/meson-info/meson-info.json
+examples-cpp/dslash-tests/build/meson-logs/
+examples-cpp/dslash-tests/build/meson-logs/meson-log.txt
+examples-cpp/dslash-tests/build/meson-private/
+examples-cpp/dslash-tests/build/meson-private/build.dat
+examples-cpp/dslash-tests/build/meson-private/cmd_line.txt
+examples-cpp/dslash-tests/build/meson-private/coredata.dat
+examples-cpp/dslash-tests/build/meson-private/install.dat
+examples-cpp/dslash-tests/build/meson-private/meson.lock
+examples-cpp/dslash-tests/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/dslash-tests/build/meson-private/meson_test_setup.dat
+examples-cpp/dslash-tests/build/meson-private/sanitycheckcpp.cc
+examples-cpp/dslash-tests/build/meson-private/sanitycheckcpp.exe
+examples-cpp/dslash-tests/build/qlat.x@exe/
+examples-cpp/dslash-tests/build/qlat.x@exe/main.cpp.o
+examples-cpp/field-rng-tests/
+examples-cpp/field-rng-tests/Makefile
+examples-cpp/field-rng-tests/log
+examples-cpp/field-rng-tests/log.full
+examples-cpp/field-rng-tests/main.cpp
+examples-cpp/field-rng-tests/meson.build
+examples-cpp/field-rng-tests/run.sh
+examples-cpp/field-rng-tests/build/
+examples-cpp/field-rng-tests/build/.ninja_deps
+examples-cpp/field-rng-tests/build/.ninja_log
+examples-cpp/field-rng-tests/build/build.ninja
+examples-cpp/field-rng-tests/build/compile_commands.json
+examples-cpp/field-rng-tests/build/qlat.x
+examples-cpp/field-rng-tests/build/meson-info/
+examples-cpp/field-rng-tests/build/meson-info/intro-benchmarks.json
+examples-cpp/field-rng-tests/build/meson-info/intro-buildoptions.json
+examples-cpp/field-rng-tests/build/meson-info/intro-buildsystem_files.json
+examples-cpp/field-rng-tests/build/meson-info/intro-dependencies.json
+examples-cpp/field-rng-tests/build/meson-info/intro-installed.json
+examples-cpp/field-rng-tests/build/meson-info/intro-projectinfo.json
+examples-cpp/field-rng-tests/build/meson-info/intro-targets.json
+examples-cpp/field-rng-tests/build/meson-info/intro-tests.json
+examples-cpp/field-rng-tests/build/meson-info/meson-info.json
+examples-cpp/field-rng-tests/build/meson-logs/
+examples-cpp/field-rng-tests/build/meson-logs/meson-log.txt
+examples-cpp/field-rng-tests/build/meson-private/
+examples-cpp/field-rng-tests/build/meson-private/build.dat
+examples-cpp/field-rng-tests/build/meson-private/cmd_line.txt
+examples-cpp/field-rng-tests/build/meson-private/coredata.dat
+examples-cpp/field-rng-tests/build/meson-private/install.dat
+examples-cpp/field-rng-tests/build/meson-private/meson.lock
+examples-cpp/field-rng-tests/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/field-rng-tests/build/meson-private/meson_test_setup.dat
+examples-cpp/field-rng-tests/build/meson-private/sanitycheckcpp.cc
+examples-cpp/field-rng-tests/build/meson-private/sanitycheckcpp.exe
+examples-cpp/field-rng-tests/build/qlat.x@exe/
+examples-cpp/field-rng-tests/build/qlat.x@exe/main.cpp.o
+examples-cpp/fields-io/
+examples-cpp/fields-io/Makefile
+examples-cpp/fields-io/log
+examples-cpp/fields-io/log.full
+examples-cpp/fields-io/main.cpp
+examples-cpp/fields-io/meson.build
+examples-cpp/fields-io/run.sh
+examples-cpp/fields-io/build/
+examples-cpp/fields-io/build/.ninja_deps
+examples-cpp/fields-io/build/.ninja_log
+examples-cpp/fields-io/build/build.ninja
+examples-cpp/fields-io/build/compile_commands.json
+examples-cpp/fields-io/build/qlat.x
+examples-cpp/fields-io/build/meson-info/
+examples-cpp/fields-io/build/meson-info/intro-benchmarks.json
+examples-cpp/fields-io/build/meson-info/intro-buildoptions.json
+examples-cpp/fields-io/build/meson-info/intro-buildsystem_files.json
+examples-cpp/fields-io/build/meson-info/intro-dependencies.json
+examples-cpp/fields-io/build/meson-info/intro-installed.json
+examples-cpp/fields-io/build/meson-info/intro-projectinfo.json
+examples-cpp/fields-io/build/meson-info/intro-targets.json
+examples-cpp/fields-io/build/meson-info/intro-tests.json
+examples-cpp/fields-io/build/meson-info/meson-info.json
+examples-cpp/fields-io/build/meson-logs/
+examples-cpp/fields-io/build/meson-logs/meson-log.txt
+examples-cpp/fields-io/build/meson-private/
+examples-cpp/fields-io/build/meson-private/build.dat
+examples-cpp/fields-io/build/meson-private/cmd_line.txt
+examples-cpp/fields-io/build/meson-private/coredata.dat
+examples-cpp/fields-io/build/meson-private/install.dat
+examples-cpp/fields-io/build/meson-private/meson.lock
+examples-cpp/fields-io/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/fields-io/build/meson-private/meson_test_setup.dat
+examples-cpp/fields-io/build/meson-private/sanitycheckcpp.cc
+examples-cpp/fields-io/build/meson-private/sanitycheckcpp.exe
+examples-cpp/fields-io/build/qlat.x@exe/
+examples-cpp/fields-io/build/qlat.x@exe/main.cpp.o
+examples-cpp/heatbath/
+examples-cpp/heatbath/Makefile
+examples-cpp/heatbath/README.md
+examples-cpp/heatbath/analysis.ss
+examples-cpp/heatbath/log
+examples-cpp/heatbath/log.full
+examples-cpp/heatbath/main.cpp
+examples-cpp/heatbath/meson.build
+examples-cpp/heatbath/run.sh
+examples-cpp/heatbath/build/
+examples-cpp/heatbath/build/.ninja_deps
+examples-cpp/heatbath/build/.ninja_log
+examples-cpp/heatbath/build/build.ninja
+examples-cpp/heatbath/build/compile_commands.json
+examples-cpp/heatbath/build/qlat.x
+examples-cpp/heatbath/build/meson-info/
+examples-cpp/heatbath/build/meson-info/intro-benchmarks.json
+examples-cpp/heatbath/build/meson-info/intro-buildoptions.json
+examples-cpp/heatbath/build/meson-info/intro-buildsystem_files.json
+examples-cpp/heatbath/build/meson-info/intro-dependencies.json
+examples-cpp/heatbath/build/meson-info/intro-installed.json
+examples-cpp/heatbath/build/meson-info/intro-projectinfo.json
+examples-cpp/heatbath/build/meson-info/intro-targets.json
+examples-cpp/heatbath/build/meson-info/intro-tests.json
+examples-cpp/heatbath/build/meson-info/meson-info.json
+examples-cpp/heatbath/build/meson-logs/
+examples-cpp/heatbath/build/meson-logs/meson-log.txt
+examples-cpp/heatbath/build/meson-private/
+examples-cpp/heatbath/build/meson-private/build.dat
+examples-cpp/heatbath/build/meson-private/cmd_line.txt
+examples-cpp/heatbath/build/meson-private/coredata.dat
+examples-cpp/heatbath/build/meson-private/install.dat
+examples-cpp/heatbath/build/meson-private/meson.lock
+examples-cpp/heatbath/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/heatbath/build/meson-private/meson_test_setup.dat
+examples-cpp/heatbath/build/meson-private/sanitycheckcpp.cc
+examples-cpp/heatbath/build/meson-private/sanitycheckcpp.exe
+examples-cpp/heatbath/build/qlat.x@exe/
+examples-cpp/heatbath/build/qlat.x@exe/main.cpp.o
+examples-cpp/hmc/
+examples-cpp/hmc/Makefile
+examples-cpp/hmc/analysis.ss
+examples-cpp/hmc/log
+examples-cpp/hmc/log.full
+examples-cpp/hmc/main.cpp
+examples-cpp/hmc/meson.build
+examples-cpp/hmc/run.sh
+examples-cpp/hmc/build/
+examples-cpp/hmc/build/.ninja_deps
+examples-cpp/hmc/build/.ninja_log
+examples-cpp/hmc/build/build.ninja
+examples-cpp/hmc/build/compile_commands.json
+examples-cpp/hmc/build/qlat.x
+examples-cpp/hmc/build/meson-info/
+examples-cpp/hmc/build/meson-info/intro-benchmarks.json
+examples-cpp/hmc/build/meson-info/intro-buildoptions.json
+examples-cpp/hmc/build/meson-info/intro-buildsystem_files.json
+examples-cpp/hmc/build/meson-info/intro-dependencies.json
+examples-cpp/hmc/build/meson-info/intro-installed.json
+examples-cpp/hmc/build/meson-info/intro-projectinfo.json
+examples-cpp/hmc/build/meson-info/intro-targets.json
+examples-cpp/hmc/build/meson-info/intro-tests.json
+examples-cpp/hmc/build/meson-info/meson-info.json
+examples-cpp/hmc/build/meson-logs/
+examples-cpp/hmc/build/meson-logs/meson-log.txt
+examples-cpp/hmc/build/meson-private/
+examples-cpp/hmc/build/meson-private/build.dat
+examples-cpp/hmc/build/meson-private/cmd_line.txt
+examples-cpp/hmc/build/meson-private/coredata.dat
+examples-cpp/hmc/build/meson-private/install.dat
+examples-cpp/hmc/build/meson-private/meson.lock
+examples-cpp/hmc/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/hmc/build/meson-private/meson_test_setup.dat
+examples-cpp/hmc/build/meson-private/sanitycheckcpp.cc
+examples-cpp/hmc/build/meson-private/sanitycheckcpp.exe
+examples-cpp/hmc/build/qlat.x@exe/
+examples-cpp/hmc/build/qlat.x@exe/main.cpp.o
+examples-cpp/latio/
+examples-cpp/latio/main.cpp
+examples-cpp/lbl-muon-part/
+examples-cpp/lbl-muon-part/Makefile
+examples-cpp/lbl-muon-part/log
+examples-cpp/lbl-muon-part/log.full
+examples-cpp/lbl-muon-part/main.cpp
+examples-cpp/lbl-muon-part/meson.build
+examples-cpp/lbl-muon-part/run.sh
+examples-cpp/lbl-muon-part/build/
+examples-cpp/lbl-muon-part/build/.ninja_deps
+examples-cpp/lbl-muon-part/build/.ninja_log
+examples-cpp/lbl-muon-part/build/build.ninja
+examples-cpp/lbl-muon-part/build/compile_commands.json
+examples-cpp/lbl-muon-part/build/qlat.x
+examples-cpp/lbl-muon-part/build/meson-info/
+examples-cpp/lbl-muon-part/build/meson-info/intro-benchmarks.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-buildoptions.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-buildsystem_files.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-dependencies.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-installed.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-projectinfo.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-targets.json
+examples-cpp/lbl-muon-part/build/meson-info/intro-tests.json
+examples-cpp/lbl-muon-part/build/meson-info/meson-info.json
+examples-cpp/lbl-muon-part/build/meson-logs/
+examples-cpp/lbl-muon-part/build/meson-logs/meson-log.txt
+examples-cpp/lbl-muon-part/build/meson-private/
+examples-cpp/lbl-muon-part/build/meson-private/build.dat
+examples-cpp/lbl-muon-part/build/meson-private/cmd_line.txt
+examples-cpp/lbl-muon-part/build/meson-private/coredata.dat
+examples-cpp/lbl-muon-part/build/meson-private/install.dat
+examples-cpp/lbl-muon-part/build/meson-private/meson.lock
+examples-cpp/lbl-muon-part/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/lbl-muon-part/build/meson-private/meson_test_setup.dat
+examples-cpp/lbl-muon-part/build/meson-private/sanitycheckcpp.cc
+examples-cpp/lbl-muon-part/build/meson-private/sanitycheckcpp.exe
+examples-cpp/lbl-muon-part/build/qlat.x@exe/
+examples-cpp/lbl-muon-part/build/qlat.x@exe/main.cpp.o
+examples-cpp/load-select-data/
+examples-cpp/load-select-data/Makefile
+examples-cpp/load-select-data/README.md
+examples-cpp/load-select-data/README.pdf
+examples-cpp/load-select-data/analysis.ss
+examples-cpp/load-select-data/compute-check-prop.h
+examples-cpp/load-select-data/compute-chvp.h
+examples-cpp/load-select-data/compute-meson-chvp.h
+examples-cpp/load-select-data/compute-meson-snk-src.h
+examples-cpp/load-select-data/compute-meson-vv-meson.h
+examples-cpp/load-select-data/compute-meson-vv.h
+examples-cpp/load-select-data/compute-psel-fsel-distribution.h
+examples-cpp/load-select-data/compute-three-point-func.h
+examples-cpp/load-select-data/compute-two-point-func.h
+examples-cpp/load-select-data/compute-utils.h
+examples-cpp/load-select-data/compute-wall-src-prop-norm-ratio.h
+examples-cpp/load-select-data/configs.h
+examples-cpp/load-select-data/data-load-base.h
+examples-cpp/load-select-data/data-load-wsrc-info.h
+examples-cpp/load-select-data/data-load-wsrc-props.h
+examples-cpp/load-select-data/data-load.h
+examples-cpp/load-select-data/data-paths.h
+examples-cpp/load-select-data/main.cpp
+examples-cpp/load-select-data/psrc-distribution.h
+examples-cpp/load-select-data/psrc-sample.h
+examples-cpp/load-select-data/analysis/
+examples-cpp/load-select-data/analysis/Makefile
+examples-cpp/load-select-data/analysis/Makefile.bnl
+examples-cpp/load-select-data/analysis/Makefile.cooley
+examples-cpp/load-select-data/analysis/main.C
+examples-cpp/load-select-data/build/
+examples-cpp/load-select-data/figs/
+examples-cpp/load-select-data/figs/matrix-elements/
+examples-cpp/load-select-data/figs/matrix-elements/Makefile
+examples-cpp/load-select-data/figs/matrix-elements/fig.log
+examples-cpp/load-select-data/figs/matrix-elements/fig.mp
+examples-cpp/load-select-data/figs/matrix-elements/fig.mpx
+examples-cpp/load-select-data/figs/matrix-elements/eps/
+examples-cpp/load-select-data/figs/matrix-elements/eps/fig-1.eps
+examples-cpp/load-select-data/figs/matrix-elements/eps/fig-2.eps
+examples-cpp/load-select-data/figs/matrix-elements/eps/fig-3.eps
+examples-cpp/load-select-data/figs/matrix-elements/eps/fig-4.eps
+examples-cpp/load-select-data/figs/matrix-elements/eps/fig-5.eps
+examples-cpp/load-select-data/figs/matrix-elements/eps/fig-6.eps
+examples-cpp/load-select-data/figs/matrix-elements/pdf/
+examples-cpp/load-select-data/figs/matrix-elements/pdf/fig-1.pdf
+examples-cpp/load-select-data/figs/matrix-elements/pdf/fig-2.pdf
+examples-cpp/load-select-data/figs/matrix-elements/pdf/fig-3.pdf
+examples-cpp/load-select-data/figs/matrix-elements/pdf/fig-4.pdf
+examples-cpp/load-select-data/figs/matrix-elements/pdf/fig-5.pdf
+examples-cpp/load-select-data/figs/matrix-elements/pdf/fig-6.pdf
+examples-cpp/load-select-data/figs/matrix-elements/png/
+examples-cpp/load-select-data/figs/matrix-elements/png/fig-1.png
+examples-cpp/load-select-data/figs/matrix-elements/png/fig-2.png
+examples-cpp/load-select-data/figs/matrix-elements/png/fig-3.png
+examples-cpp/load-select-data/figs/matrix-elements/png/fig-4.png
+examples-cpp/load-select-data/figs/matrix-elements/png/fig-5.png
+examples-cpp/load-select-data/figs/matrix-elements/png/fig-6.png
+examples-cpp/mixed-size-cg/
+examples-cpp/mixed-size-cg/main.cpp
+examples-cpp/pi-decay-lmd/
+examples-cpp/pi-decay-lmd/main.cpp
+examples-cpp/pi-decay-lmd/note.html
+examples-cpp/pi-decay-lmd/note.md
+examples-cpp/propagators/
+examples-cpp/propagators/Makefile
+examples-cpp/propagators/log
+examples-cpp/propagators/log.full
+examples-cpp/propagators/main.cpp
+examples-cpp/propagators/meson.build
+examples-cpp/propagators/run.sh
+examples-cpp/propagators/build/
+examples-cpp/propagators/build/.ninja_deps
+examples-cpp/propagators/build/.ninja_log
+examples-cpp/propagators/build/build.ninja
+examples-cpp/propagators/build/compile_commands.json
+examples-cpp/propagators/build/qlat.x
+examples-cpp/propagators/build/meson-info/
+examples-cpp/propagators/build/meson-info/intro-benchmarks.json
+examples-cpp/propagators/build/meson-info/intro-buildoptions.json
+examples-cpp/propagators/build/meson-info/intro-buildsystem_files.json
+examples-cpp/propagators/build/meson-info/intro-dependencies.json
+examples-cpp/propagators/build/meson-info/intro-installed.json
+examples-cpp/propagators/build/meson-info/intro-projectinfo.json
+examples-cpp/propagators/build/meson-info/intro-targets.json
+examples-cpp/propagators/build/meson-info/intro-tests.json
+examples-cpp/propagators/build/meson-info/meson-info.json
+examples-cpp/propagators/build/meson-logs/
+examples-cpp/propagators/build/meson-logs/meson-log.txt
+examples-cpp/propagators/build/meson-private/
+examples-cpp/propagators/build/meson-private/build.dat
+examples-cpp/propagators/build/meson-private/cmd_line.txt
+examples-cpp/propagators/build/meson-private/coredata.dat
+examples-cpp/propagators/build/meson-private/install.dat
+examples-cpp/propagators/build/meson-private/meson.lock
+examples-cpp/propagators/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/propagators/build/meson-private/meson_test_setup.dat
+examples-cpp/propagators/build/meson-private/sanitycheckcpp.cc
+examples-cpp/propagators/build/meson-private/sanitycheckcpp.exe
+examples-cpp/propagators/build/qlat.x@exe/
+examples-cpp/propagators/build/qlat.x@exe/main.cpp.o
+examples-cpp/qcd-utils-tests/
+examples-cpp/qcd-utils-tests/Makefile
+examples-cpp/qcd-utils-tests/log
+examples-cpp/qcd-utils-tests/log.full
+examples-cpp/qcd-utils-tests/main.cpp
+examples-cpp/qcd-utils-tests/meson.build
+examples-cpp/qcd-utils-tests/run.sh
+examples-cpp/qcd-utils-tests/build/
+examples-cpp/qcd-utils-tests/build/.ninja_deps
+examples-cpp/qcd-utils-tests/build/.ninja_log
+examples-cpp/qcd-utils-tests/build/build.ninja
+examples-cpp/qcd-utils-tests/build/compile_commands.json
+examples-cpp/qcd-utils-tests/build/qlat.x
+examples-cpp/qcd-utils-tests/build/meson-info/
+examples-cpp/qcd-utils-tests/build/meson-info/intro-benchmarks.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-buildoptions.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-buildsystem_files.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-dependencies.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-installed.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-projectinfo.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-targets.json
+examples-cpp/qcd-utils-tests/build/meson-info/intro-tests.json
+examples-cpp/qcd-utils-tests/build/meson-info/meson-info.json
+examples-cpp/qcd-utils-tests/build/meson-logs/
+examples-cpp/qcd-utils-tests/build/meson-logs/meson-log.txt
+examples-cpp/qcd-utils-tests/build/meson-private/
+examples-cpp/qcd-utils-tests/build/meson-private/build.dat
+examples-cpp/qcd-utils-tests/build/meson-private/cmd_line.txt
+examples-cpp/qcd-utils-tests/build/meson-private/coredata.dat
+examples-cpp/qcd-utils-tests/build/meson-private/install.dat
+examples-cpp/qcd-utils-tests/build/meson-private/meson.lock
+examples-cpp/qcd-utils-tests/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/qcd-utils-tests/build/meson-private/meson_test_setup.dat
+examples-cpp/qcd-utils-tests/build/meson-private/sanitycheckcpp.cc
+examples-cpp/qcd-utils-tests/build/meson-private/sanitycheckcpp.exe
+examples-cpp/qcd-utils-tests/build/qlat.x@exe/
+examples-cpp/qcd-utils-tests/build/qlat.x@exe/main.cpp.o
+examples-cpp/qed-self-energy/
+examples-cpp/qed-self-energy/main.cpp
+examples-cpp/qed-self-energy/plots.ss
+examples-cpp/qed-self-energy/plots/
+examples-cpp/qed-self-energy/plots/size-mass.eps
+examples-cpp/qed-self-energy/plots/size-mass.pdf
+examples-cpp/qed-self-energy/plots/size-mass.png
+examples-cpp/qed-self-energy/plots/ts-val.eps
+examples-cpp/qed-self-energy/plots/ts-val.pdf
+examples-cpp/qed-self-energy/plots/ts-val.png
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/Makefile
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/convert.sh
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/log
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/mpost-job.log
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/plot.mp
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/plot.mpx
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/plotfile
+examples-cpp/qed-self-energy/plots/size-mass.cslib-plot-dir/size-dmass-tl2.txt
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/Makefile
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/convert.sh
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/log
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/mpost-job.log
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/plot.mp
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/plot.mpx
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/plotfile
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/ts-val-24.txt
+examples-cpp/qed-self-energy/plots/ts-val.cslib-plot-dir/ts-val-32.txt
+examples-cpp/rng-state-tests/
+examples-cpp/rng-state-tests/Makefile
+examples-cpp/rng-state-tests/log
+examples-cpp/rng-state-tests/log.full
+examples-cpp/rng-state-tests/main.cpp
+examples-cpp/rng-state-tests/meson.build
+examples-cpp/rng-state-tests/run.sh
+examples-cpp/rng-state-tests/build/
+examples-cpp/rng-state-tests/build/.ninja_deps
+examples-cpp/rng-state-tests/build/.ninja_log
+examples-cpp/rng-state-tests/build/build.ninja
+examples-cpp/rng-state-tests/build/compile_commands.json
+examples-cpp/rng-state-tests/build/qlat.x
+examples-cpp/rng-state-tests/build/meson-info/
+examples-cpp/rng-state-tests/build/meson-info/intro-benchmarks.json
+examples-cpp/rng-state-tests/build/meson-info/intro-buildoptions.json
+examples-cpp/rng-state-tests/build/meson-info/intro-buildsystem_files.json
+examples-cpp/rng-state-tests/build/meson-info/intro-dependencies.json
+examples-cpp/rng-state-tests/build/meson-info/intro-installed.json
+examples-cpp/rng-state-tests/build/meson-info/intro-projectinfo.json
+examples-cpp/rng-state-tests/build/meson-info/intro-targets.json
+examples-cpp/rng-state-tests/build/meson-info/intro-tests.json
+examples-cpp/rng-state-tests/build/meson-info/meson-info.json
+examples-cpp/rng-state-tests/build/meson-logs/
+examples-cpp/rng-state-tests/build/meson-logs/meson-log.txt
+examples-cpp/rng-state-tests/build/meson-private/
+examples-cpp/rng-state-tests/build/meson-private/build.dat
+examples-cpp/rng-state-tests/build/meson-private/cmd_line.txt
+examples-cpp/rng-state-tests/build/meson-private/coredata.dat
+examples-cpp/rng-state-tests/build/meson-private/install.dat
+examples-cpp/rng-state-tests/build/meson-private/meson.lock
+examples-cpp/rng-state-tests/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/rng-state-tests/build/meson-private/meson_test_setup.dat
+examples-cpp/rng-state-tests/build/meson-private/sanitycheckcpp.cc
+examples-cpp/rng-state-tests/build/meson-private/sanitycheckcpp.exe
+examples-cpp/rng-state-tests/build/qlat.x@exe/
+examples-cpp/rng-state-tests/build/qlat.x@exe/main.cpp.o
+examples-cpp/select-data/
+examples-cpp/select-data/Makefile
+examples-cpp/select-data/Makefile.cooley
+examples-cpp/select-data/configs.h
+examples-cpp/select-data/main.cpp
+examples-cpp/select-data/paths-old.h
+examples-cpp/select-data/paths.h
+examples-cpp/select-data/psrc-distribution.h
+examples-cpp/select-data/psrc-sample.h
+examples-cpp/selected-field/
+examples-cpp/selected-field/Makefile
+examples-cpp/selected-field/log
+examples-cpp/selected-field/log.full
+examples-cpp/selected-field/main.cpp
+examples-cpp/selected-field/meson.build
+examples-cpp/selected-field/run.sh
+examples-cpp/selected-field/build/
+examples-cpp/selected-field/build/.ninja_deps
+examples-cpp/selected-field/build/.ninja_log
+examples-cpp/selected-field/build/build.ninja
+examples-cpp/selected-field/build/compile_commands.json
+examples-cpp/selected-field/build/qlat.x
+examples-cpp/selected-field/build/meson-info/
+examples-cpp/selected-field/build/meson-info/intro-benchmarks.json
+examples-cpp/selected-field/build/meson-info/intro-buildoptions.json
+examples-cpp/selected-field/build/meson-info/intro-buildsystem_files.json
+examples-cpp/selected-field/build/meson-info/intro-dependencies.json
+examples-cpp/selected-field/build/meson-info/intro-installed.json
+examples-cpp/selected-field/build/meson-info/intro-projectinfo.json
+examples-cpp/selected-field/build/meson-info/intro-targets.json
+examples-cpp/selected-field/build/meson-info/intro-tests.json
+examples-cpp/selected-field/build/meson-info/meson-info.json
+examples-cpp/selected-field/build/meson-logs/
+examples-cpp/selected-field/build/meson-logs/meson-log.txt
+examples-cpp/selected-field/build/meson-private/
+examples-cpp/selected-field/build/meson-private/build.dat
+examples-cpp/selected-field/build/meson-private/cmd_line.txt
+examples-cpp/selected-field/build/meson-private/coredata.dat
+examples-cpp/selected-field/build/meson-private/install.dat
+examples-cpp/selected-field/build/meson-private/meson.lock
+examples-cpp/selected-field/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/selected-field/build/meson-private/meson_test_setup.dat
+examples-cpp/selected-field/build/meson-private/sanitycheckcpp.cc
+examples-cpp/selected-field/build/meson-private/sanitycheckcpp.exe
+examples-cpp/selected-field/build/qlat.x@exe/
+examples-cpp/selected-field/build/qlat.x@exe/main.cpp.o
+examples-cpp/simple-1/
+examples-cpp/simple-1/Makefile
+examples-cpp/simple-1/log
+examples-cpp/simple-1/log.full
+examples-cpp/simple-1/main.cpp
+examples-cpp/simple-1/meson.build
+examples-cpp/simple-1/run.sh
+examples-cpp/simple-1/build/
+examples-cpp/simple-1/build/.ninja_deps
+examples-cpp/simple-1/build/.ninja_log
+examples-cpp/simple-1/build/build.ninja
+examples-cpp/simple-1/build/compile_commands.json
+examples-cpp/simple-1/build/qlat.x
+examples-cpp/simple-1/build/meson-info/
+examples-cpp/simple-1/build/meson-info/intro-benchmarks.json
+examples-cpp/simple-1/build/meson-info/intro-buildoptions.json
+examples-cpp/simple-1/build/meson-info/intro-buildsystem_files.json
+examples-cpp/simple-1/build/meson-info/intro-dependencies.json
+examples-cpp/simple-1/build/meson-info/intro-installed.json
+examples-cpp/simple-1/build/meson-info/intro-projectinfo.json
+examples-cpp/simple-1/build/meson-info/intro-targets.json
+examples-cpp/simple-1/build/meson-info/intro-tests.json
+examples-cpp/simple-1/build/meson-info/meson-info.json
+examples-cpp/simple-1/build/meson-logs/
+examples-cpp/simple-1/build/meson-logs/meson-log.txt
+examples-cpp/simple-1/build/meson-private/
+examples-cpp/simple-1/build/meson-private/build.dat
+examples-cpp/simple-1/build/meson-private/cmd_line.txt
+examples-cpp/simple-1/build/meson-private/coredata.dat
+examples-cpp/simple-1/build/meson-private/install.dat
+examples-cpp/simple-1/build/meson-private/meson.lock
+examples-cpp/simple-1/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/simple-1/build/meson-private/meson_test_setup.dat
+examples-cpp/simple-1/build/meson-private/sanitycheckcpp.cc
+examples-cpp/simple-1/build/meson-private/sanitycheckcpp.exe
+examples-cpp/simple-1/build/qlat.x@exe/
+examples-cpp/simple-1/build/qlat.x@exe/main.cpp.o
+examples-cpp/template/
+examples-cpp/template/Makefile
+examples-cpp/template/compute.cpp
+examples-cpp/template/log
+examples-cpp/template/log.full
+examples-cpp/template/main.cpp
+examples-cpp/template/meson.build
+examples-cpp/template/run.sh
+examples-cpp/template/build/
+examples-cpp/template/build/.ninja_deps
+examples-cpp/template/build/.ninja_log
+examples-cpp/template/build/build.ninja
+examples-cpp/template/build/compile_commands.json
+examples-cpp/template/build/qlat.x
+examples-cpp/template/build/meson-info/
+examples-cpp/template/build/meson-info/intro-benchmarks.json
+examples-cpp/template/build/meson-info/intro-buildoptions.json
+examples-cpp/template/build/meson-info/intro-buildsystem_files.json
+examples-cpp/template/build/meson-info/intro-dependencies.json
+examples-cpp/template/build/meson-info/intro-installed.json
+examples-cpp/template/build/meson-info/intro-projectinfo.json
+examples-cpp/template/build/meson-info/intro-targets.json
+examples-cpp/template/build/meson-info/intro-tests.json
+examples-cpp/template/build/meson-info/meson-info.json
+examples-cpp/template/build/meson-logs/
+examples-cpp/template/build/meson-logs/meson-log.txt
+examples-cpp/template/build/meson-private/
+examples-cpp/template/build/meson-private/build.dat
+examples-cpp/template/build/meson-private/cmd_line.txt
+examples-cpp/template/build/meson-private/coredata.dat
+examples-cpp/template/build/meson-private/install.dat
+examples-cpp/template/build/meson-private/meson.lock
+examples-cpp/template/build/meson-private/meson_benchmark_setup.dat
+examples-cpp/template/build/meson-private/meson_test_setup.dat
+examples-cpp/template/build/meson-private/sanitycheckcpp.cc
+examples-cpp/template/build/meson-private/sanitycheckcpp.exe
+examples-cpp/template/build/qlat.x@exe/
+examples-cpp/template/build/qlat.x@exe/compute.cpp.o
+examples-cpp/template/build/qlat.x@exe/main.cpp.o
+examples-cpp/utilities/
+examples-cpp/utilities/Makefile
+examples-cpp/utilities/crc32/
+examples-cpp/utilities/crc32/Makefile
+examples-cpp/utilities/crc32/main.C
+examples-cpp/utilities/field-compare/
+examples-cpp/utilities/field-compare/Makefile
+examples-cpp/utilities/field-compare/main.C
+examples-cpp/utilities/gf-info/
+examples-cpp/utilities/gf-info/Makefile
+examples-cpp/utilities/gf-info/main.C
+examples-cpp/utilities/latio-show/
+examples-cpp/utilities/latio-show/Makefile
+examples-cpp/utilities/latio-show/main.C
+examples-cpp/utilities/repartition/
+examples-cpp/utilities/repartition/Makefile
+examples-cpp/utilities/repartition/main.C
+
+sent 33,140,055 bytes  received 11,387 bytes  2,652,115.36 bytes/sec
+total size is 33,093,028  speedup is 1.00
+make: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp'
+time for i in qcd-utils-tests dslash-tests lbl-muon-part rng-state-tests field-rng-tests benchmark dist-io selected-field fields-io heatbath propagators hmc simple-1  ; do make -C "$i" clean ; done
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+rm -rf build
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+
+real	0m1.209s
+user	0m0.336s
+sys	0m0.584s
+time for i in qcd-utils-tests dslash-tests lbl-muon-part rng-state-tests field-rng-tests benchmark dist-io selected-field fields-io heatbath propagators hmc simple-1  ; do make -C "$i" clean-logs ; done
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+rm -rf build
+rm -rf log
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+
+real	0m1.473s
+user	0m0.541s
+sys	0m0.875s
+make: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp'
+make: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp'
+for i in qcd-utils-tests dslash-tests lbl-muon-part rng-state-tests field-rng-tests benchmark dist-io selected-field fields-io heatbath propagators hmc simple-1  ; do make -C "$i" compile & done ; time wait
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+meson build
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+meson build
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+meson build
+meson build
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+meson build
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+ninja -C build
+ninja -C build
+ninja -C build
+ninja -C build
+ninja -C build
+ninja -C build
+ninja -C build
+ninja -C build
+ninja -C build
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+ninja -C build
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja -C build
+ninja: Entering directory `build'
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Run-time dependency OpenMP found: YES 4.5
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Run-time dependency qlat found: YES 0.2
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+ninja -C build
+ninja: Entering directory `build'
+ninja: Entering directory `build'
+ninja -C build
+ninja: Entering directory `build'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+[1/2] Compiling C++ object 'qlat.x@exe/main.cpp.o'.
+[2/2] Linking target qlat.x.
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+
+real	1m31.870s
+user	10m17.185s
+sys	1m30.121s
+time for i in qcd-utils-tests dslash-tests lbl-muon-part rng-state-tests field-rng-tests benchmark dist-io selected-field fields-io heatbath propagators hmc simple-1  ; do make -C "$i" run ; done
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 1756maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1724maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1756maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1736maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1732maxresident)k
+0inputs+0outputs (0major+150minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1680maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1896maxresident)k
+0inputs+0outputs (0major+151minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1724maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1848maxresident)k
+0inputs+0outputs (0major+152minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath
+analysis.ss
+build
+log.full
+main.cpp
+Makefile
+meson.build
+README.md
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1724maxresident)k
+0inputs+0outputs (0major+148minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1748maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc
+analysis.ss
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1788maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc'
+make[1]: Entering directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+meson build
+Directory already configured.
+
+Just run your build command (e.g. ninja) and Meson will regenerate as necessary.
+If ninja fails, run "ninja reconfigure" or "meson --reconfigure"
+to force Meson to regenerate.
+
+If build failures persist, run "meson setup --wipe" to rebuild from scratch
+using the same options as passed when configuring the build.
+To change option values, run "meson configure" instead.
+ninja -C build
+ninja: Entering directory `build'
+ninja: no work to do.
+ninja -C build run
+ninja: Entering directory `build'
+[0/1] Running external command run.
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1
+build
+log.full
+main.cpp
+Makefile
+meson.build
+run.sh
+[mpiexec@ln1] match_arg (utils/args/args.c:160): unrecognized argument oversubscribe
+[mpiexec@ln1] HYDU_parse_array (utils/args/args.c:175): argument matching returned error
+[mpiexec@ln1] parse_args (ui/mpich/utils.c:1603): error parsing input array
+[mpiexec@ln1] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1655): unable to parse user arguments
+[mpiexec@ln1] main (ui/mpich/mpiexec.c:128): error parsing parameters
+Command exited with non-zero status 255
+0.00user 0.00system 0:00.00elapsed 83%CPU (0avgtext+0avgdata 1732maxresident)k
+0inputs+0outputs (0major+149minor)pagefaults 0swaps
+FAILED: meson-run 
+/usr/bin/meson --internal commandrunner /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1 /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1/build '' /usr/bin/meson run.sh
+ninja: build stopped: subcommand failed.
+make[1]: *** [Makefile:10: run] Error 1
+make[1]: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1'
+
+real	0m20.843s
+user	0m13.631s
+sys	0m7.223s
+make: [Makefile:23: run] Error 2 (ignored)
+make: Leaving directory '/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp'
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/benchmark/log benchmark/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dist-io/log dist-io/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/dslash-tests/log dslash-tests/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/field-rng-tests/log field-rng-tests/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/fields-io/log fields-io/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/heatbath/log heatbath/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/hmc/log hmc/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/lbl-muon-part/log lbl-muon-part/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/propagators/log propagators/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/qcd-utils-tests/log qcd-utils-tests/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/rng-state-tests/log rng-state-tests/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/log selected-field/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/simple-1/log simple-1/log
+diff /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/template/log template/log
+!!!! qlat-examples-cpp build !!!!
+
+real	2m8.093s
+user	10m32.063s
+sys	1m40.354s

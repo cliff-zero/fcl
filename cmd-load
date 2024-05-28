@@ -1,0 +1,22 @@
+export Q_TIME_LIMIT=1209600
+module add GCC/8.3.0
+#module add mpich/mpi-x-gcc8.3.0
+module add openmpi/mpi-x-gcc9.3.0
+module add hdf5/1.8.21-gcc8.3.0-mpi-x
+module add gsl/2.6-gcc8.3.0-mpi-x
+module add fftw/3.3.8-gcc8.3.0
+module add lapack/3.8.0-gcc8.3.0
+module add blas/3.8.0-gcc8.3.0
+module add zlib/1.2.11-gcc8.3.0
+#module add autoconf/2.71-gcc9.3.0
+#module add automake/1.61.1-gcc8.2.0
+#module add libtool/2.4.6-gcc9.3.0
+module add bzip2/1.0.8-gcc8.3.0
+module add cmake/3.12.0-gcc8.3.0
+#module add make/3.81-gcc4.9.3
+#module add ghostscript/9.26-gcc8.2.0
+#module add python/3.6.6-gcc8.2.0
+
+ulimit -c 0
+
+#export PYTHONPATH=$HOME/DWF/software-v1/gpt/lib

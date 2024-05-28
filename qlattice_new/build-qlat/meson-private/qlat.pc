@@ -1,0 +1,10 @@
+prefix=/thfs1/home/fengxu/wxh/code/qlattice_new
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qlat
+Description: Qlattice - A simple lattice QCD library.
+Version: 0.2
+Requires: fftw3, fftw3f, qlat-utils
+Libs: -lfftw3_mpi -lfftw3f_mpi -lz -lm
+Cflags: -I${includedir}

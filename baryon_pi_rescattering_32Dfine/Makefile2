@@ -1,0 +1,22 @@
+SHELL=/bin/bash
+
+
+#ifdef DEBUG
+CXXFLAGS += -g
+#endif
+
+all: compile
+
+compile:
+	CC=mpicxx ~/Yusheng_Gao/software/meson-1.3.1/meson.py build_debug
+	ninja -C build_debug
+
+run: compile
+	ninja -C build_debug run
+	cp build_debug/log log
+
+clean:
+	-rm -rf build_debug
+
+clean-logs: clean
+	-rm -rf log

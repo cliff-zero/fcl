@@ -1,0 +1,3 @@
+/thfs1/home/fengxu/fcl/build/CMakeFiles/rebuild_cache.dir
+/thfs1/home/fengxu/fcl/build/CMakeFiles/edit_cache.dir
+/thfs1/home/fengxu/fcl/build/CMakeFiles/qlat.x.dir

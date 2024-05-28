@@ -1,0 +1,182 @@
+Build started at 2022-10-20T17:42:48.276606
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build
+Build type: native build
+Project name: qlat-cpp
+Project version: 0.1
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: CXX.sh
+Is cross compiler: False.
+Sanity check compiler command line: CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/sanitycheckcpp.cc -o /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the build machine: CXX.sh ld.bfd 2.34
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: CXX.sh
+Is cross compiler: False.
+Sanity check compiler command line: CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/sanitycheckcpp.cc -o /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmplvrrb1rt
+Command line:  CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmplvrrb1rt/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -fopenmp 
+
+Code:
+ 
+        
+        #ifndef _OPENMP
+        # define _OPENMP
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+_OPENMP
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+201511
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpjhfx4rc4
+Command line:  CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpjhfx4rc4/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("omp.h")
+          #error "Header 'omp.h' could not be found"
+         #endif
+        #else
+         #include <omp.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency OpenMP found: YES 4.5
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Determining dependency 'ompi-cxx' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion ompi-cxx` -> 1
+
+Command ['/thfs1/home/fengxu/wxh/code/qlattice_new/bin/MPICXX.sh', '--showme:compile'] failed to run:
+Standard output
+ 
+Standard error
+ g++: error: unrecognized command line option '--showme:compile'; did you mean '--compile'?
+
+Run-time dependency MPI for cpp found: YES mpicxx for MPICH version 3.4.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'qlat' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion qlat` -> 0
+0.2
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags qlat` -> 0
+
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config qlat --libs` -> 0
+-L/thfs1/home/fengxu/wxh/code/qlattice_new/lib -lfftw3_mpi -lfftw3f_mpi -lz -lm -lfftw3 -lfftw3f -lz -lm
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config qlat --libs` -> 0
+-L/thfs1/home/fengxu/wxh/code/qlattice_new/lib -lfftw3_mpi -lfftw3f_mpi -lz -lm -lfftw3 -lfftw3f -lz -lm
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmppzsmbeqz
+Command line:  CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmppzsmbeqz/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmppzsmbeqz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpa0krqtfv
+Command line:  CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpa0krqtfv/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpa0krqtfv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/
+programs: =/thfs1/software/gcc/8.3.0/bin/../libexec/gcc/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../libexec/gcc/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../libexec/gcc/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/bin/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/bin/
+libraries: =/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/aarch64-linux-gnu/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/../lib64/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/aarch64-linux-gnu/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/../lib64/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/../lib64/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/../lib64/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/../lib64/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/../lib64/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/../lib64/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/aarch64-linux-gnu/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/../lib64/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/aarch64-linux-gnu/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/../lib64/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/../lib64/:/thfs1/software/gcc/8.3.0/lib64/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/lib64/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/lib64/../lib64/:/thfs1/software/gcc/8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/lib/../lib64/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/../lib64/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../lib64/:/lib/aarch64-unknown-linux-gnu/8.3.0/:/lib/aarch64-linux-gnu/:/lib/../lib64/:/usr/lib/aarch64-unknown-linux-gnu/8.3.0/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib64/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/:/thfs1/software/gcc/8.3.0/lib64/:/thfs1/software/gcc/8.3.0/lib/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpfkfkxu85
+Command line:  CXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpfkfkxu85/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/build/meson-private/tmpfkfkxu85/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency qlat found: YES 0.2
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/*.cpp
+--- stdout ---
+/thfs1/home/fengxu/wxh/code/qlattice_new/qlat-examples/examples-cpp/selected-field/main.cpp
+
+--- stderr ---
+
+
+Build targets in project: 2
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpamj1n7rq
+Command line:  CXX.sh /tmp/tmpamj1n7rq/testfile.cpp -o /tmp/tmpamj1n7rq/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES

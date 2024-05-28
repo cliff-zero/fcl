@@ -1,0 +1,492 @@
+Build started at 2022-10-20T15:38:21.323945
+Main binary: /usr/bin/python3
+Build Options: -Duse_cxx=true -Dprefix=/thfs1/home/fengxu/wxh/code/qlattice_new
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat
+Build type: native build
+Project name: qlat
+Project version: 0.2
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: MPICXX.sh
+Is cross compiler: False.
+Sanity check compiler command line: MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/sanitycheckcpp.cc -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: MPICXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the build machine: MPICXX.sh ld.bfd 2.34
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: MPICXX.sh
+Is cross compiler: False.
+Sanity check compiler command line: MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/sanitycheckcpp.cc -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: MPICXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: MPICXX.sh ld.bfd 2.34
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Running command: /usr/bin/bash -c cd "$MESON_SOURCE_ROOT"/pylib/cqlat ; bash update.sh
+--- stdout ---
+No update for exports.h
+  Found 345 exported functions
+================================================================================
+
+--- stderr ---
+
+
+Program python3 found: YES (/thfs1/home/fengxu/archiconda3/bin/python3)
+Message: /thfs1/home/fengxu/archiconda3/bin/python3
+Message: /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpx9hbqyrj
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpx9hbqyrj/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -fopenmp 
+
+Code:
+ 
+        
+        #ifndef _OPENMP
+        # define _OPENMP
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+_OPENMP
+Compiler stdout:
+         "MESON_GET_DEFINE_DELIMITER"
+201511
+
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpuyw_qepv
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpuyw_qepv/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("omp.h")
+          #error "Header 'omp.h' could not be found"
+         #endif
+        #else
+         #include <omp.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency OpenMP found: YES 4.5
+Message: use_cxx=true (use CXX compiler without additional MPI options.)
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'fftw3' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion fftw3` -> 0
+3.3.10
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags fftw3` -> 0
+
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config fftw3 --libs` -> 0
+-L/thfs1/home/fengxu/wxh/code/qlattice_new/lib -lfftw3
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config fftw3 --libs` -> 0
+-L/thfs1/home/fengxu/wxh/code/qlattice_new/lib -lfftw3
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpwq3atz9t
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpwq3atz9t/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpwq3atz9t/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpho6gicco
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpho6gicco/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpho6gicco/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/
+programs: =/thfs1/software/gcc/8.3.0/bin/../libexec/gcc/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../libexec/gcc/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../libexec/gcc/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/bin/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/bin/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/bin/
+libraries: =/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/aarch64-linux-gnu/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/../lib64/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/aarch64-linux-gnu/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/../lib64/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/../lib64/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/../lib64/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/../lib64/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/../lib64/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/../lib64/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/aarch64-linux-gnu/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/../lib64/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/aarch64-linux-gnu/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/../lib64/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/../lib64/:/thfs1/software/gcc/8.3.0/lib64/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/lib64/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/lib64/../lib64/:/thfs1/software/gcc/8.3.0/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/lib/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/lib/../lib64/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/../lib64/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../aarch64-unknown-linux-gnu/8.3.0/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../aarch64-linux-gnu/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../lib64/:/lib/aarch64-unknown-linux-gnu/8.3.0/:/lib/aarch64-linux-gnu/:/lib/../lib64/:/usr/lib/aarch64-unknown-linux-gnu/8.3.0/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib64/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib64/:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/:/thfs1/software/bzip2/1.0.8-gcc8.3.0/lib/:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/:/thfs1/software/blas/3.8.0-gcc8.3.0/lib/:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/:/thfs1/software/gcc/8.3.0/lib64/:/thfs1/software/gcc/8.3.0/lib/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../../aarch64-unknown-linux-gnu/lib/:/thfs1/software/gcc/8.3.0/bin/../lib/gcc/aarch64-unknown-linux-gnu/8.3.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency fftw3 found: YES 3.3.10
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'fftw3f' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion fftw3f` -> 0
+3.3.10
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags fftw3f` -> 0
+
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config fftw3f --libs` -> 0
+-L/thfs1/home/fengxu/wxh/code/qlattice_new/lib -lfftw3f
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config fftw3f --libs` -> 0
+-L/thfs1/home/fengxu/wxh/code/qlattice_new/lib -lfftw3f
+Run-time dependency fftw3f found: YES 3.3.10
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpdb7kz2c2
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpdb7kz2c2/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpdb7kz2c2/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lfftw3_mpi -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library fftw3_mpi found: YES
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpth2gai2l
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpth2gai2l/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpth2gai2l/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lfftw3f_mpi -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library fftw3f_mpi found: YES
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'zlib' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion zlib` -> 0
+1.2.11
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags zlib` -> 0
+
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config zlib --libs` -> 0
+-L/thfs1/software/zlib/1.2.11-gcc8.3.0/lib -lz
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config zlib --libs` -> 0
+-L/thfs1/software/zlib/1.2.11-gcc8.3.0/lib -lz
+Run-time dependency zlib found: YES 1.2.11
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmp1djcxx2d
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmp1djcxx2d/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmp1djcxx2d/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'eigen3' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion eigen3` -> 1
+
+CMake binary for MachineChoice.HOST is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Trying CMake binary cmake for machine MachineChoice.HOST at ['/thfs1/software/cmake/3.12.0-gcc8.3.0/bin/cmake']
+Found CMake: /thfs1/software/cmake/3.12.0-gcc8.3.0/bin/cmake (3.12.0)
+Extracting basic cmake information
+Try CMake generator: auto
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+No FFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+Called `/thfs1/software/cmake/3.12.0-gcc8.3.0/bin/cmake --trace-expand .` in /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/cmake_eigen3 -> 0
+  -- Module search paths:    ['/', '/opt', '/thfs1/software/cmake/3.12.0-gcc8.3.0', '/thfs1/software/fftw/3.3.8-gcc8.3.0/', '/usr', '/usr/local']
+  -- CMake root:             /thfs1/software/cmake/3.12.0-gcc8.3.0/share/cmake-3.12
+  -- CMake architectures:    ['aarch64-linux-gnu']
+  -- CMake lib search paths: ['lib', 'lib32', 'lib64', 'libx32', 'share', 'lib/aarch64-linux-gnu']
+Preliminary CMake check failed. Aborting.
+Run-time dependency eigen3 found: NO (tried pkgconfig and cmake)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'qlat-utils' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion qlat-utils` -> 0
+0.2
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags qlat-utils` -> 0
+
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config qlat-utils --libs` -> 0
+-lz -lm
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config qlat-utils --libs` -> 0
+-lz -lm
+Running compile:
+Working directory:  /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpfs_et_du
+Command line:  MPICXX.sh /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpfs_et_du/testfile.cpp -o /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat/meson-private/tmpfs_et_du/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lz -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency qlat-utils found: YES 0.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'python-3.7m' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --modversion python-3.7m` -> 0
+3.7
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config --cflags python-3.7m` -> 0
+-I/thfs1/home/fengxu/archiconda3/include/python3.7m
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config python-3.7m --libs` -> 0
+-L/thfs1/home/fengxu/archiconda3/lib -lpython3.7m
+PKG_CONFIG_PATH: /thfs1/home/fengxu/wxh/code/qlattice_new/lib64/pkgconfig:/thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig:/thfs1/software/zlib/1.2.11-gcc8.3.0/lib/pkgconfig:/thfs1/software/lapack/3.8.0-gcc8.3.0/lib/pkgconfig:/thfs1/software/fftw/3.3.8-gcc8.3.0/lib/pkgconfig:/thfs1/software/gsl/2.6-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/hdf5/1.8.21-gcc8.3.0-mpi-x/lib/pkgconfig:/thfs1/software/mpich/mpi-x-gcc8.3.0/lib/pkgconfig
+Called `/usr/bin/pkg-config python-3.7m --libs` -> 0
+-L/thfs1/home/fengxu/archiconda3/lib -lpython3.7m
+Found "python-3.7m" via pkgconfig lookup in LIBPC (/thfs1/home/fengxu/archiconda3/lib/pkgconfig)
+Dependency python found: YES (pkgconfig)
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/include/qlat/*.h
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/compressed-eigen-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/config.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/contract-field.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/contract-hvp.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/contract-pion.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/contract-wall-src-prop.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/coordinate-d.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/coordinate.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/cps.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/cps-lanc.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/cps-pio.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/cps-utils.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/dslash.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/fermion-action.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-comm.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-dist-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-expand.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-fft.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-rng.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-serial-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-shuffle.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/fields-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/field-utils.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/gauge-action.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/geometry.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/grid.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/hmc.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/hmc-stats.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/matrix.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/matrix-hmc.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/mpi.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/mvector.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/py_convert.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd-gauge-transformation-boundary.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd-gauge-transformation.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd-prop.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd-smear.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd-topology.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qcd-utils.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qed.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qlat-analysis.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qlat.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/qlat-setup.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/quda.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/scalar-action.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/selected-field.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/selected-field-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/selected-points.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/utils-coordinate.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/utils-io.h
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/include/qlat/wilson-flow.h
+
+--- stderr ---
+
+
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/pylib/cqlat/*.cpp
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-field.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-hvp.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/contraction-pion.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/coordinate.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/fermion-action.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-double.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-io.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-selection.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/fields-io.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/field-utils.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/gauge-action.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/geometry.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/hmc.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/hmc-stats.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/init.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/inverter.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/lat-io.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/lib.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/mat.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/mpi.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/propagator.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/qcd.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/scalar-action.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/selected-field.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/selected-points.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/smear.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/topology.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/utils-io.cpp
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/cqlat/wilson-flow.cpp
+
+--- stderr ---
+
+
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/pylib/qlat/*.py
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/contract_field.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/contract_hvp.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/contract_pion.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/coordinate.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/cqlat.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/fermion_action.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/field_double.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/field.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/field_selection.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/fields_io.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/field_utils.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/gauge_action.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/geometry.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/hmc.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/hmc_stats.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/__init__.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/inverter.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/mat.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/mpi.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/propagator.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/qcd.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/scalar_action.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/selected_field.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/selected_points.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/smear.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/topology.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/utils_io.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/utils.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat/wilson_flow.py
+
+--- stderr ---
+
+
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/pylib/auto_contractor/*.py
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/ama.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/benchmark.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/compile.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/eval.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/eval_sc_qlat.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/expr_arithmetic.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/operators.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/runtime.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/simulation.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/auto_contractor/wick.py
+
+--- stderr ---
+
+
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/pylib/rbc_ukqcd_params/*.py
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/__init__.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_16IH2.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24DH.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24D.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH01.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH02.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH03.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH04.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH05.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH1.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH2.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH3.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_24IH4.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32Dfine.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32D.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IcoarseH01.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IcoarseH02.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IcoarseH1.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IfineH.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IH01.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IH1.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IH2.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_32IH3.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_48I.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_64I.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_96I.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/p_test.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd_params/utils.py
+
+--- stderr ---
+
+
+Running command: /usr/bin/bash -c ls "$MESON_SOURCE_ROOT"/pylib/*.py
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/qlat_gpt.py
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/pylib/rbc_ukqcd.py
+
+--- stderr ---
+
+
+Running command: /usr/bin/bash -c ls $MESON_SOURCE_ROOT/bin/*
+--- stdout ---
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/bin/eigen-system-checksum
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/bin/eigen-system-repartition
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/bin/fields-checksum
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/bin/gauge-fix-coulomb
+/thfs1/home/fengxu/wxh/package/Qlattice-master/qlat/bin/topo-measure
+
+--- stderr ---
+
+
+Build targets in project: 1
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpxhg8kjhi
+Command line:  MPICXX.sh /tmp/tmpxhg8kjhi/testfile.cpp -o /tmp/tmpxhg8kjhi/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++14 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++14: YES

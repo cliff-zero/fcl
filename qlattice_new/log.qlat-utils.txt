@@ -1,0 +1,81 @@
+!!!! build qlat-utils !!!!
+The Meson build system
+Version: 0.53.2
+Source dir: /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils
+Build dir: /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat-utils
+Build type: native build
+Project name: qlat-utils
+Project version: 0.2
+C++ compiler for the host machine: CXX.sh (gcc 8.3.0 "g++ (Spack GCC) 8.3.0")
+C++ linker for the host machine: CXX.sh ld.bfd 2.34
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Program python3 found: YES (/thfs1/home/fengxu/archiconda3/bin/python3)
+Message: /thfs1/home/fengxu/archiconda3/bin/python3
+Message: /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/
+Run-time dependency OpenMP found: YES 4.5
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Run-time dependency zlib found: YES 1.2.11
+Dependency python found: YES (pkgconfig)
+Build targets in project: 1
+
+Found ninja-1.10.0 at /usr/bin/ninja
+[1/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/lib.cpp.o'.
+[2/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/lat-io.cpp.o'.
+[3/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/qar.cpp.o'.
+[4/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/rng-state.cpp.o'.
+[5/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/timer.cpp.o'.
+[6/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/utils.cpp.o'.
+[7/8] Compiling C++ object 'cqlat_utils.cpython-37m-aarch64-linux-gnu@sha/utils-io.cpp.o'.
+[8/8] Linking target cqlat_utils.cpython-37m-aarch64-linux-gnu.so.
+
+real	0m33.991s
+user	0m51.403s
+sys	0m6.494s
+[0/1] Installing files.
+Installing cqlat_utils.cpython-37m-aarch64-linux-gnu.so to /thfs1/home/fengxu/wxh/code/qlattice_new/lib
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/array.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/cache.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/compatible-endian.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/compatible-omp.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/complex.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/crc32.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/eigen.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/lat-io.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/py_convert.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qacc-func.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qacc.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qar-cache.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qar.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qutils.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qutils-io.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/qutils-vec.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/rng-state.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/sha256.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/show.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/sprng-sha256.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/timer.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/include/qlat-utils/vector.h to /thfs1/home/fengxu/wxh/code/qlattice_new/include/qlat-utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/cache.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/data.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/__init__.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/lat_io.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/parallel.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/qar.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/qplot.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/rng_state.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/timer.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/utils_io.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/pylib/qlat_utils/utils.py to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/python3.7/site-packages/qlat_utils
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/bin/crc32 to /thfs1/home/fengxu/wxh/code/qlattice_new/bin
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/bin/lat-io-diff to /thfs1/home/fengxu/wxh/code/qlattice_new/bin
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/bin/lat-io-glimpse to /thfs1/home/fengxu/wxh/code/qlattice_new/bin
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/bin/pickle-glimpse to /thfs1/home/fengxu/wxh/code/qlattice_new/bin
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/bin/qar to /thfs1/home/fengxu/wxh/code/qlattice_new/bin
+Installing /thfs1/home/fengxu/wxh/package/Qlattice-master/qlat-utils/bin/qar-glimpse to /thfs1/home/fengxu/wxh/code/qlattice_new/bin
+Installing /thfs1/home/fengxu/wxh/code/qlattice_new/build-qlat-utils/meson-private/qlat-utils.pc to /thfs1/home/fengxu/wxh/code/qlattice_new/lib/pkgconfig
+!!!! qlat-utils build !!!!
+
+real	0m41.251s
+user	0m54.802s
+sys	0m9.349s
